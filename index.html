@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <title>Telepsy</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel="stylesheet" href="assets/css/0.styles.1e9d37b3.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/normalize.min.css">
+    <link rel='stylesheet' href='assets/css/slick.css'>
+    <link rel='stylesheet' href='assets/css/animate.min.css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="layout">
+      <script>
+       $(document).ready(function(){
+          $(".c-masthead__toggle").click(function(){
+            $(".c-masthead__menus").addClass("is-expanded");
+          });
+          $(".c-masthead__close").click(function(){
+            $(".c-masthead__menus").removeClass("is-expanded");
+          });
+
+          $(".blog").click(function(){
+            $(".c-masthead__sub-menu").toggleClass("is-expanded");
+          });
+        });
+      </script>
+      <style type="text/css">
+        .down-move {
+          margin-top: 80px;
+            transition: 1s all;
+        }
+        .up-move
+        {
+          margin-top: -80px;
+            transition: 1s all;
+        }
+      </style>
+
+<header id="c-masthead" class="c-masthead is-transparent">
+   <div class="l-container l-container--gutters l-container--masthead">
+      <nav class="c-masthead__nav">
+         <div class="c-masthead__logo">
+            <a href="#" class="active--exact active">
+               <!-- logo -->
+               <img src="assets/images/logo.png" class="g-image g-image--loaded" style="max-width: 150%;" width="107" alt="logo">
+               <noscript><img src="assets/images/logo.png" class="g-image g-image--loaded" width="107" alt="logo"></noscript>
+            </a>
+         </div>
+         <div class="c-masthead__utilities"><button class="c-masthead__toggle"><span class="h-visually-hidden">Menu</span><span class="c-masthead__toggle-icon"></span></button><a class="c-button c-button--small c-button--solid c-button--solid-green c-button--masthead-utility c-button--masthead-utility-sign-up"><span class="c-button__inner c-button__inner--small c-button__inner--solid c-button__inner--solid-green c-button__inner--masthead-utility c-button__inner--masthead-utility-sign-up">
+            Get Started
+            </span></a><a href="#" class="c-button c-button--small c-button--outline c-button--outline-green c-button--masthead-utility c-button--masthead-utility-sign-in"><span class="c-button__inner c-button__inner--small c-button__inner--outline c-button__inner--outline-green c-button__inner--masthead-utility c-button__inner--masthead-utility-sign-in">
+            Sign In
+            </span></a>
+         </div>
+         <div class="c-masthead__menus">
+            <div class="l-container l-container--gutters">
+               <button class="c-masthead__close">
+                  <span class="h-visually-hidden">Close</span><img alt="&amp;times;" src="assets/static/close-x.df86f52.8862ecf99455d0554092c54a7fa0ca52.svg" class="c-masthead__close-icon g-image g-image--lazy g-image--loading">
+                  <noscript><img src="assets/static/close-x.df86f52.8862ecf99455d0554092c54a7fa0ca52.svg" class="c-masthead__close-icon g-image g-image--loaded" width="14" alt="&times;"></noscript>
+               </button>
+               <ul class="c-masthead__main-menu">
+                  <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link active--exact active">Home</a></li>
+                  <li class="c-masthead__main-item c-masthead__main-item--is-parent blog">
+                     <a class="c-masthead__main-link c-masthead__main-link--no-href c-masthead__main-link--is-parent">
+                        Services
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41" class="c-expand-arrow c-expand-arrow--masthead-parent">
+                           <path d="M6,7.41l6-6L10.59,0,6,4.58,1.41,0,0,1.41Z" class="c-expand-arrow__path c-expand-arrow__path--masthead-parent"></path>
+                        </svg>
+                     </a>
+                     <ul class="c-masthead__sub-menu">
+                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Psychiatric Evaluations</a></li>
+                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Medication Management</a></li>
+                     </ul>
+                  </li> 
+                  <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Providers</a></li>
+                  <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Clinics</a></li>
+                  <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">Partner Us</a></li> -->
+                  <!-- <li class="c-masthead__main-item c-masthead__main-item--is-parent blog">
+                     <a class="c-masthead__main-link c-masthead__main-link--no-href c-masthead__main-link--is-parent">
+                        Partner Us
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41" class="c-expand-arrow c-expand-arrow--masthead-parent">
+                           <path d="M6,7.41l6-6L10.59,0,6,4.58,1.41,0,0,1.41Z" class="c-expand-arrow__path c-expand-arrow__path--masthead-parent"></path>
+                        </svg>
+                     </a>
+                     <ul class="c-masthead__sub-menu">
+                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Momentum - Clinician Edition</a></li>
+                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Momentum - Company Edition</a></li>
+                     </ul>
+                  </li> -->
+               </ul>
+               <ul class="c-masthead__button-menu">
+                  <li class="c-masthead__button-item c-masthead__button-item--sign-in"><a href="#" class="c-button c-button--outline c-button--outline-green"><span class="c-button__inner c-button__inner--outline c-button__inner--outline-green">
+                     Sign In
+                     </span></a>
+                  </li>
+                  <li class="c-masthead__button-item c-masthead__button-item--sign-up"><a class="c-button c-button--solid c-button--solid-green"><span class="c-button__inner c-button__inner--solid c-button__inner--solid-green">
+                     Get Started
+                     </span></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </div>
+</header>
+<main>
+
+<div class="pos_rel">
+    <div class="sec_slid">
+<div class="slider stick-dots">
+    <div class="slide">
+      <div class="slide__img">
+        <img src="" alt="" data-lazy="assets/images/hero-01.jpg" class="full-image animated hiddenxs" data-animation-in="zoomInImage"/>
+        <img src="" alt="" data-lazy="assets/images/Slide1-mob-dark.jpg" class="full-image animated visiblexs" data-animation-in="zoomInImage"/>
+      </div>
+      <div class="slide__content">
+        <div class="slide__content--headings">
+           <h2 class="animated" data-animation-in="fadeInUp">Sleep Disorder?</h2>
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><a href="tel:(888) 688-4161 " class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">(888) 688-4161 </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide__img">
+        <img src="" alt="" data-lazy="assets/images/hero-02.jpg" class="full-image animated hiddenxs" data-animation-in="zoomInImage"/>
+        <img src="" alt="" data-lazy="assets/images/Slide2-mob-dark.jpg" class="full-image animated visiblexs" data-animation-in="zoomInImage"/>
+      </div>
+      <div class="slide__content">
+        <div class="slide__content--headings">
+           <h2 class="animated" data-animation-in="fadeInRight">Emotional Distress ?</h2>
+           <p class="animated" data-animation-in="fadeInRight" data-delay-in="0.2"><a href="tel:(888) 688-4161 " class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">(888) 688-4161 </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide__img">
+        <img src="" alt="" data-lazy="assets/images/hero-03.jpg" class="full-image animated hiddenxs" data-animation-in="zoomInImage"/>
+        <img src="" alt="" data-lazy="assets/images/Slide3-mob-dark.jpg" class="full-image animated visiblexs" data-animation-in="zoomInImage"/>
+      </div>
+      <div class="slide__content">
+        <div class="slide__content--headings">
+           <h2 class="animated" data-animation-in="fadeInRight">Anxiety ?</h2>
+           <h3  class="animated" data-animation-in="fadeInRight">Get Professional Diagnosis & Treatment, Online!</h3>
+           <p class="animated" data-animation-in="fadeInRight" data-delay-in="0.2"><a href="tel:(888) 688-4161 " class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">(888) 688-4161 </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  
+
+
+
+
+
+
+    <!-- Slider ends -->
+<div id="more-info" class="c-home c-home--clinicians">
+   <div class="l-max-width">
+      <div class="l-container l-container--gutters">
+         <div class="c-home__intro">
+            <h2>
+               <div class="heading-inner">Manage mental and behavioral concerns from the comfort of home</div>
+            </h2>
+            <p>At Psych Care Live you can have online consultation sessions and you will be able to communicate, via video call,  with one of our expert mental health providers using a smartphone, tablet or a computer. Find out how easy it is to receive affordable, quality care wherever you may be.</p>
+         </div>
+         <div class="c-home-blocks">
+            <section class="c-home-blocks__block">
+               <div class="c-home-blocks__image">
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/tele-doc.png" class="lazyload"></div>
+               </div>
+               <br>
+               <div class="c-home-blocks__content">
+                  <div class="c-home-blocks__text">
+                     <h2>Why Psych Care Live?</h2>
+                     
+                  </div><br>
+                  <p>Almost half of the adults in the United States will experience a mental illness during their lifetime. Less than half of the people who had a mental disorder in the past year received professional health care or other mental health services. Psych Care Live has given patients a way to see an online mental health provider in the comfort of their own home or office.</p>
+                  <div class="c-home-blocks__quote">
+                     <div class="c-home-blocks__quote-text">
+                        <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
+                        <div>
+                          
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </section>
+            <section class="c-home-blocks__block" id="elem">
+               <div class="c-home-blocks__image">
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
+               </div>
+               <div class="c-home-blocks__content">
+                  <div class="c-home-blocks__text">
+                     <h2>Increasing access to health care with Tele-psychiatry.</h2>
+                     
+                  </div>
+                  <br>
+                    <p>Are you one of the many people unsure of taking the next step in seeking mental health care because your anxiety, depression, or other symptoms make interacting with the world around you difficult?
+
+                        We at Psych Care Live give you peace of mind knowing you don’t have to travel long distances, lose time at work, or exit your comfort zone to get the help you need.</p>
+                  <div class="c-home-blocks__quote">
+                     <div class="c-home-blocks__quote-text">
+
+                        <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
+                        
+                     </div>
+                     
+                  </div>
+               </div>
+            </section>
+            
+            <div class="c-home-blocks__shape c-home-blocks__shape--first"><img alt="" src="assets/static/parallelogram-green.b21028e.a6210f0baae3efabe9959cbe7061c37c.svg" class="c-home-blocks__shape-image c-home-blocks__shape-image--first g-image" style="transform:translateY(0%);"></div><br><br>
+            <div class="c-home-blocks__shape c-home-blocks__shape--second"><img alt="" src="assets/static/parallelogram-light-blue.b21028e.bf108266bbd4ce934196105afa979463.svg" class="c-home-blocks__shape-image c-home-blocks__shape-image--first g-image" style="transform:translateY(0%);"></div>
+         </div>
+         <div class="c-home__intro c-home__intro--outro">
+            <h2>
+               <div class="heading-inner">Anxiety, Depression, Emotional distress?</div>
+            </h2>
+            <h4>OR any other mental health problems? Here is what to do...</h4>
+
+         </div>
+         <div class="c-start-columns">
+            <div class="c-start-columns__grid">
+               <div class="c-start-columns__column">
+                  <div class="c-start-columns__image c-start-columns__image--1">
+                     <div class="c-start-columns__image-wrapper" data-aos="fade-up" data-aos-duration="1000"><img width="240" height="400" src="assets/images/01-step-parent-image.png" class="lazyload c-start-columns__image-img"></div>
+                  </div>
+                  <div class="c-start-columns__text">
+                     <h3>Call Us at (888) 688-4161</h3>
+                     <p>You will get connected to our Care Coordinator who will confirm information and review your condition as well as collect past medical history.</p>
+                  </div>
+               </div>
+               <div class="c-start-columns__column">
+                  <div class="c-start-columns__image c-start-columns__image--2">
+                     <div class="c-start-columns__image-wrapper" data-aos="fade-up" data-aos-duration="1500"><img width="240" height="400" src="assets/images/02-step-parent-image.png" class="lazyload c-start-columns__image-img"></div>
+                  </div>
+                  <div class="c-start-columns__text">
+                     <h3>Our Care coordinator will connect you to the mental health provider.</h3>
+                     <p>The mental health provider will speak to you using secure computer technology and it is as similar as an in-person appointment.</p>
+                  </div>
+               </div>
+               <div class="c-start-columns__column">
+                  <div class="c-start-columns__image c-start-columns__image--3">
+                     <div class="c-start-columns__image-wrapper" data-aos="fade-up" data-aos-duration="2000"><img width="240" height="400" src="assets/images/03-step-image.png" class="lazyload c-start-columns__image-img"></div>
+                  </div>
+                  <div class="c-start-columns__text">
+                     <h3>Get easily accessible and immediate care.</h3>
+                     <p>Mental health provider will put your notes in electronic health records. Our care coordinator then will review diagnosed instructions, schedule follow-up visits if necessary and send a secure email with visit summary and follow-ups.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div><div class="c-sign-up-footer c-sign-up-footer--clinicians">
+   <div class="l-max-width">
+      <div class="l-container l-container--gutters">
+         <h2 class="c-sign-up-footer__title c-sign-up-footer__title--clinicians">
+            <div class="heading-inner">Find a telepsychiatry job. &nbsp;Embrace a flexible career</div>
+         </h2>
+         <!---->
+         <ul class="c-sign-up-footer__buttons">
+            <li class="c-sign-up-footer__button-item c-sign-up-footer__button-item--first"><a class="c-button c-button--solid c-button--solid-white-with-navy c-button--square-arrow c-button--ne-arrow c-button--ne-arrow-navy"><span class="c-button__inner c-button__inner--solid c-button__inner--solid-white-with-navy c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-navy">
+               Providers! Join our team
+               </span></a>
+            </li>
+            <li class="c-sign-up-footer__button-item c-sign-up-footer__button-item--last"><a href="for-companies/index.html" class="c-button c-button--outline c-button--outline-white"><span class="c-button__inner c-button__inner--outline c-button__inner--outline-white">
+               For Companies
+               </span></a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+</main>
+
+<footer class="c-footer">
+   <div class="c-footer__top">
+      <div class="l-container l-container--gutters">
+         <nav class="c-footer__nav-grid">
+            <div class="c-footer__nav-column c-footer__nav-column--main">
+               <ul class="c-footer__menu c-footer__menu--main">
+                  <li class="c-footer__menu-item c-footer__menu-item--main"><a href="#" class="c-footer__menu-link active--exact active">For Providers</a></li>
+                  <li class="c-footer__menu-item c-footer__menu-item--main"><a href="#" class="c-footer__menu-link">For Clinics</a></li>
+                  <li class="c-footer__menu-item c-footer__menu-item--main"><a href="#" class="c-footer__menu-link">Partner Us</a></li>
+               </ul>
+            </div>
+            <div class="c-footer__nav-column c-footer__nav-column--secondary">
+               <ul class="c-footer__menu c-footer__menu--secondary">
+                  <li class="c-footer__menu-item c-footer__menu-item--secondary"><a href="#" class="c-footer__menu-link">Services</a></li>
+                  <li class="c-footer__menu-item c-footer__menu-item--secondary"><a href="#" class="c-footer__menu-link">About Us</a></li>
+                  
+               </ul>
+            </div>
+            <div class="c-footer__nav-column c-footer__nav-column--secondary">
+               <ul class="c-footer__menu c-footer__menu--secondary"></ul>
+            </div>
+            <div class="c-footer__nav-column c-footer__nav-column--brand">
+               <div class="c-footer__logo"></div>
+               <ul class="c-footer__menu c-footer__menu--external">
+                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="Facebook" class="c-footer__menu-icon fab fa-facebook-f"></i></a></li>
+                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="Twitter" class="c-footer__menu-icon fab fa-twitter"></i></a></li>
+                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="LinkedIn" class="c-footer__menu-icon fab fa-linkedin"></i></a></li>
+                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="Instagram" class="c-footer__menu-icon fab fa-instagram"></i></a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </div>
+   <div class="c-footer__bottom">
+      <div class="l-container l-container--gutters">
+         <div class="c-footer__bottom-grid">
+            <nav class="c-footer__bottom-nav">
+               <ul class="c-footer__bottom-menu">
+                 <!-- <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">About Us</a></li>
+                   <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">Careers</a></li> -->
+                  <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">Privacy Policy</a></li>
+                  <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">Terms and Conditions</a></li>
+               </ul>
+            </nav>
+            <div class="c-footer__legal">©2020 Psych Care Live, Inc. All rights reserved.</div>
+         </div>
+      </div>
+   </div>
+</footer>
+</div>
+    <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
+    <script src='assets/js/slick.min.js'></script>
+    <script src='assets/js/slick-animation.min.js'></script>
+    <script src="assets/js/aos.js"></script>
+    <script type="text/javascript">
+      $('.slider').slick({
+          autoplay: true,
+          speed: 1500,
+          lazyLoad: 'progressive',
+          arrows: false,
+          dots: true,
+        }).slickAnimation();
+            </script>
+            <script>
+          AOS.init();
+    </script>
+  
+
+<!-- 
+  <script type="text/javascript">
+  $('#elem').on('DOMMouseScroll mousewheel', function (e) {
+  if(e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) { //alternative options for wheelData: wheelDeltaX & wheelDeltaY
+    //scroll down
+    $(".c-home-blocks__shape").addClass("down-move");
+    $(".c-home-blocks__shape").removeClass("up-move");
+    console.log('Down');
+  } else {
+    //scroll up
+    $(".c-home-blocks__shape").addClass("up-move");
+    $(".c-home-blocks__shape").removeClass("down-move");
+    console.log('Up');
+  }
+});
+</script> -->
+
+<script type="text/javascript">
+  var lastScrollTop = 20000;
+$(window).scroll(function(event){
+  var wid = $(window).width();
+   var st = $(this).scrollTop();
+   var numstr = st.toString();
+    numstr = numstr.substring(0, 2);
+   var strg=numstr.trim();
+   var mart=parseInt(strg);
+   console.log('st='+st+', mart='+mart+', wid='+wid);   
+    if (st > lastScrollTop){
+    
+    if(st >1000 && st<3000 && wid>768){
+        $(".c-home-blocks__shape").css("margin-top",mart+"rem");
+        }
+        else
+        {
+          return false;
+        }
+   } 
+   else {
+    
+    if(st >1000 && st<3000 && wid>768)
+    {
+      $(".c-home-blocks__shape").css("margin-top",mart+"rem");
+    }
+   else
+    {
+      return false;
+    }  
+   }
+   lastScrollTop = st;
+});
+</script>
+  </body>
+
+</html>
