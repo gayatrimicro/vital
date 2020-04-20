@@ -161,7 +161,7 @@
 
         </div><br>
         <p class="line-one">Concierge</p>
-        <p class="line-two">Call us : +88 888 888 8888</p>
+        <p class="line-two">Call us :<a href="tel:832 487 9746">832 487 9746</a> </p>
         
       </div>
       <div class="ani-box">
@@ -178,6 +178,66 @@
   </div>
 
 </div>
+
+<div id="callbackModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="add-box">
+      <img src="assets/images/vital-logo.png" style="width: 16rem;">
+      <div class="form-content" style="padding: 2rem 2rem 2rem 0rem;">
+        <p style="margin-bottom: 0px;">Email us</p>
+        <p><a href="#">companyname@domain.com</a></p>
+        <br>
+        <p style="margin-bottom: 0px;">Call us</p>
+        <p><a href="tel:832 487 9746">832 487 9746</a></p>
+        <br>
+        <p style="margin-bottom: 0px;">Find us</p>
+        <p>1125 Cypress Station Drive,Houston, TX 77090.</p>
+      </div>
+      
+    </div>
+    <div class="form-box">
+       <span class="closeForm">&times;</span>
+       <h1 style="font-family: gotham-light;font-size: 38px;font-weight: 400;">Request A Call Back</h1>
+       <div class="row">
+         <div class="col-6">
+           <input type="text" name="fName" class="input-field" placeholder="First Name">
+         </div>
+         <div class="col-6">
+           <input type="text" name="lName" class="input-field" placeholder="Last Name">
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-6">
+           <input type="text" name="phone" class="input-field" placeholder="Phone">
+         </div>
+         <div class="col-6">
+           <input type="text" name="email" class="input-field" placeholder="Email">
+         </div>
+       </div>
+       <div class="row">
+         
+           <textarea placeholder="How can we help?" rows="2" class="textarea-field"></textarea>
+         
+       </div>
+       <div class="row">
+         <div class="col-6">
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Submit</button></p>
+         </div>
+         <div class="col-6">
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Chat Now</button></p>
+         </div>
+       </div>
+    </div>
+
+    
+    
+
+    
+  </div>
+
+</div>
 <div class="pos_rel">
     <div class="sec_slid">
 <div class="slider stick-dots">
@@ -189,7 +249,7 @@
       <div class="slide__content">
         <div class="slide__content--headings">
            <h2 class="animated" data-animation-in="fadeInUp" style="font-size: 35px;">We optimise your cellular health so that you can function at top of your game</h2>
-           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><a href="tel:(888) 688-4161 " class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Request Call Back </a></p>
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback">Request Call Back </button></p>
         </div>
       </div>
     </div>
@@ -252,7 +312,7 @@
                   <p>Studies prove that restoring levels of vitamins, minerals and other amino acids in your cells has benefits for your brain and body, helping repair DNA, protect brain cells from damage, reduce inflammation and prevent ageing.</p>
 
                   <p>From the therapeutic to the detoxifying, discover how Vital Care could benefit you.</p>
-                  <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><a href="tel:(888) 688-4161 " class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Request Call Back </a></p>
+                  <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Request Call Back </button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
                         <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
@@ -442,18 +502,47 @@
 <script src="//code.tidio.co/khpu65xbhojkuultudavqckcnyozdc8u.js" async></script>
 <script>
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal1 = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 $(document).ready(function() {
-  modal.style.display = "block";
+  modal1.style.display = "block";
 });
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("callbackModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("reqCallback");
+var btn2 = document.getElementById("reqCallback2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeForm")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+btn2.onclick = function() {
+  modal.style.display = "block";
+}
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
