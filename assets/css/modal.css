@@ -119,3 +119,18 @@ body {font-family: Arial, Helvetica, sans-serif;}
         margin-top: 0px;
         font-size: 14px;
       }
+
+      @media (max-width: 600px){
+        .modal-footer .ani-box{
+            width: 100%;
+            display: inline-block;
+            float: none;
+          }
+          .modal-body {
+            padding: 2px 10px;
+          }
+          .modal-content {
+            width: 95%;
+            height: auto;
+          }
+      }
