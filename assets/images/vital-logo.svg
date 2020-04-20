@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="250px" height="50px" viewBox="0 0 250 50" enable-background="new 0 0 250 50" xml:space="preserve">
+<g>
+	<g id="XMLID_2_">
+		<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="19.7295" y1="25" x2="50.2002" y2="25">
+			<stop  offset="0" style="stop-color:#28275B"/>
+			<stop  offset="0.2137" style="stop-color:#272759"/>
+			<stop  offset="0.3744" style="stop-color:#272655"/>
+			<stop  offset="0.5177" style="stop-color:#26264D"/>
+			<stop  offset="0.6509" style="stop-color:#242443"/>
+			<stop  offset="0.7771" style="stop-color:#202035"/>
+			<stop  offset="0.8964" style="stop-color:#181823"/>
+			<stop  offset="1" style="stop-color:#060608"/>
+		</linearGradient>
+		<polygon id="XMLID_3_" fill="url(#XMLID_4_)" points="19.729,7.133 41.89,15.444 50.2,42.867 35.842,21.307 		"/>
+		<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="51.4697" y1="25" x2="81.9409" y2="25">
+			<stop  offset="0" style="stop-color:#5D5D9F"/>
+			<stop  offset="0.5356" style="stop-color:#4E4F82"/>
+			<stop  offset="1" style="stop-color:#2A2B62"/>
+		</linearGradient>
+		<polygon id="XMLID_9_" fill="url(#XMLID_5_)" points="81.941,7.133 59.78,15.444 51.47,42.867 65.828,21.307 		"/>
+	</g>
+	<g>
+		<text transform="matrix(0.9451 0 0 1 83.981 27)" fill="#262262" font-family="'Humanist777BT-BlackB'" font-size="27">VITAL CARE</text>
+		<text transform="matrix(1 0 0 1 84.9805 41.3389)" fill="#2B3990" font-family="'Cinzel-Regular'" font-size="13.5786">OF NORTH HOUSTON</text>
+	</g>
+</g>
+</svg>

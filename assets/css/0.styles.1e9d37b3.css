@@ -31,6 +31,12 @@
 }
 
 @font-face {
+	font-family: gotham-light;
+	src: url(../fonts/Metropolis-Light.otf);
+	font-weight: 400;
+}
+Metropolis-Light
+@font-face {
 	font-family: ogg-text;
 	src: url(../fonts/OggText-Bold.b0e14098.eot);
 	src: url(../fonts/OggText-Bold.b0e14098d41d.eot?#iefix) format("embedded-opentype"), url(../fonts/OggText-Bold.4cfad485.woff2) format("woff2"), url(../fonts/OggText-Bold.79119f87.woff) format("woff"), url(../fonts/OggText-Bold.428abb4e.ttf) format("truetype");
@@ -729,7 +735,7 @@ ul {
 }
 
 .c-masthead__logo {
-	width: 68px
+	width: 49%;
 }
 
 .c-masthead__logo a,
@@ -997,7 +1003,7 @@ ul {
 
 @media screen and (min-width:64em) {
 	.c-masthead__logo {
-		width: 106px
+		width: 50%;
 	}
 	.c-masthead__close,
 	.c-masthead__toggle {
