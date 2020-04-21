@@ -199,43 +199,78 @@
       
     </div>
     <div class="form-box">
+      <form id="callback-form">
        <span class="closeForm">&times;</span>
        <h1 class="req-form-heading">Request A Call Back</h1>
        <div class="row">
          <div class="col-6">
-           <input type="text" name="fName" class="input-field" placeholder="First Name">
+           <input type="text" name="fName" id="fName" class="input-field" placeholder="First Name" required>
          </div>
          <div class="col-6">
-           <input type="text" name="lName" class="input-field" placeholder="Last Name">
+           <input type="text" name="lName" id="lName" class="input-field" placeholder="Last Name" required>
          </div>
        </div>
        <div class="row">
          <div class="col-6">
-           <input type="text" name="phone" class="input-field" placeholder="Phone">
+           <input type="text" name="phone" id="phone" class="input-field" placeholder="Phone" name="bnumber" maxlength="10" pattern="[0-9]{10,10}$" title="Enter valid contact number." required>
          </div>
          <div class="col-6">
-           <input type="text" name="email" class="input-field" placeholder="Email">
+           <input type="text" name="email" id="email" class="input-field" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter valid E-mail address." required>
          </div>
        </div>
        <div class="row">
          
-           <textarea placeholder="How can we help?" rows="2" class="textarea-field"></textarea>
+           <textarea placeholder="How can we help?" rows="2" name="message"  id="message" class="textarea-field"></textarea>
          
        </div>
        <div class="row">
-         <div class="g-recaptcha" id="book-recaptcha" data-sitekey="6Lf6oOsUAAAAAFsM0OmRV0wIpWkk6_46x8u63-2B"></div>
+         <div class="g-recaptcha" id="book-recaptcha" data-sitekey="6Lcm9tsUAAAAAAF3EAGaeuC2QMK0oRY7qTLLB4Qv"></div>
        </div>
        <div class="row">
          <div class="col-6">
-           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Submit</button></p>
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" type="submit">Submit</button></p>
          </div>
          <div class="col-6">
            <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Chat Now</button></p>
          </div>
        </div>
+       </form>
     </div>
 
-    
+    <script>
+
+    $('#callback-form').submit(function(event) {
+      event.preventDefault();
+      var formdata = $('#callback-form').serialize();
+
+      
+        if ($('#fName').val() != "" && $('#lName').val() != "" && $('#phone').val() != "" && $('#email').val() != "" && $('#message').val() != "" && grecaptcha.getResponse() != "") {
+          
+          // alert(bookdate);
+            // && grecaptcha.getResponse() != ""
+             $.ajax({
+                              url:'request.php',
+                              type:'POST',
+                              data:formdata,
+                              success:function(result){
+                                
+                                  $("#modal-success").css("display", "block");
+                                  // alert("Your enquiry has been sent successfully");
+                                  $("#fName, #lName, #phone, #email, #message").val("");
+                                  
+                                  grecaptcha.reset();
+                              } 
+                    });
+
+        
+    }
+             else{
+              alert("All fields are mandatory");
+                  }
+    });
+
+</script>
+
     
 
     
