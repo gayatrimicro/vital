@@ -137,7 +137,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .pos-rel{
         position: relative;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
+
       }
       .inner-image{
         height: 25px;
@@ -292,6 +293,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
           }
           .req-modal-content{
             width: 95%;
+            padding-bottom: 0px;
           }
           .row{
             width: 100%;

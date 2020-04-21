@@ -298,6 +298,7 @@
     margin-top: 25px;
     text-align: left;
 }
+
 .sec_slid {
     position: absolute;
     top: 55px;
@@ -379,5 +380,7 @@
     padding-top: 700px !important;
   }
 }
-
+.join_btn:hover{
+  cursor: pointer;
+}
 
