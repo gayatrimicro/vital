@@ -125,7 +125,7 @@
  <div id="myModal" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
+  <div class="req-modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
       <h2 style="text-align: center;padding: 1rem;margin: 0px; ">
@@ -184,7 +184,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="add-box">
-      <span class="closeForm" id="mob-only">&times;</span>
+      <!-- <span class="closeForm" id="mob-only">&times;</span> -->
       <img src="assets/images/vital-logo.png" style="width: 16rem;">
       <div class="form-content" style="padding: 2rem 2rem 2rem 0rem;">
         <p style="margin-bottom: 0px;">Email us</p>
@@ -199,7 +199,7 @@
       
     </div>
     <div class="form-box">
-       <span class="closeForm" id="desk-only">&times;</span>
+       <span class="closeForm">&times;</span>
        <h1 class="req-form-heading">Request A Call Back</h1>
        <div class="row">
          <div class="col-6">
@@ -221,6 +221,9 @@
          
            <textarea placeholder="How can we help?" rows="2" class="textarea-field"></textarea>
          
+       </div>
+       <div class="row">
+         <div class="g-recaptcha" id="book-recaptcha" data-sitekey="6Lf6oOsUAAAAAFsM0OmRV0wIpWkk6_46x8u63-2B"></div>
        </div>
        <div class="row">
          <div class="col-6">
@@ -326,19 +329,21 @@
                </div>
             </section>
 
-            <section class="c-home-blocks__block" id="elem">
+            <section class="c-home-blocks__block" id="elem" style="margin-bottom: 0px;">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
                </div>
                <div class="c-home-blocks__content">
                   <div class="c-home-blocks__text">
-                     <h2>Increasing access to health care with Tele-psychiatry.</h2>
+                     <h2>Infusion Specialists</h2>
                      
                   </div>
                   <br>
-                    <p>Are you one of the many people unsure of taking the next step in seeking mental health care because your anxiety, depression, or other symptoms make interacting with the world around you difficult?
+                    <p>Vital Care has a multidisciplinary team. Our team of clinical pharmacists are trained in home infusion and are available 24 hours a day. Our nurses undergo extensive training and customized orientation. Each member of the care team is well equipped to assess, educate and care for infusion patients.</p>
 
-                        We at Psych Care Live give you peace of mind knowing you don’t have to travel long distances, lose time at work, or exit your comfort zone to get the help you need.</p>
+                    <p>In addition to providing education and care, we closely monitor the patient's clinical status, dosage frequency, and treatment efficacy. The expertise and extensive experience of the care team allows them to identify, communicate, and respond to any changes in the patient's status related to the applied therapy.</p>
+
+                    <p>We are dedicated to compassionate care, and clinical and educational excellence. In order to promote these ideals, we maintain an active quality improvement program to continue our tradition of exceptional care and patient satisfaction.</p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
 
@@ -355,52 +360,121 @@
          </div>
          <div class="c-home__intro c-home__intro--outro">
             <h2>
-               <div class="heading-inner">Anxiety, Depression, Emotional distress?</div>
+               <div class="heading-inner">Discover the power of IV infusions</div>
             </h2>
-            <h4>OR any other mental health problems? Here is what to do...</h4>
+            <h4>With our signature infusions, injections and services</h4>
 
          </div>
-         <div class="c-start-columns">
+         <style type="text/css">
+          #bullet ul {
+              list-style: none;
+            }
+           #bullet ul li::before {
+              content: "\2022";
+              color: #262262;
+              font-weight: bold;
+              font-size: 20px;
+              display: inline-block;
+              width: 1em;
+              margin-left: -1em;
+            }
+            #bullet{
+              margin: 0px 0px 5rem 0px;
+             
+            }
+         </style>
+         <div class="c-start-columns" id="bullet">
+                     <h4 style="text-align: center;">From the therapeutic to the detoxifying, discover how our infusions can benefit you.</h4><br>
+
             <div class="c-start-columns__grid">
+
                <div class="c-start-columns__column">
-                  <div class="c-start-columns__image c-start-columns__image--1">
+                  <!-- <div class="c-start-columns__image c-start-columns__image--1">
                      <div class="c-start-columns__image-wrapper" data-aos="fade-up" data-aos-duration="1000"><img width="240" height="400" src="assets/images/01-step-parent-image.png" class="lazyload c-start-columns__image-img"></div>
-                  </div>
+                  </div> -->
                   <div class="c-start-columns__text">
-                     <h3>Call Us at (888) 688-4161</h3>
-                     <p>You will get connected to our Care Coordinator who will confirm information and review your condition as well as collect past medical history.</p>
+                     <h3>Support Symptom Relief</h3>
+                     <ul>
+                      <li>Parkinson’s</li>
+                      <li>High blood pressure</li>
+                      <li>Cancer</li>
+                      <li>Diabetes</li>
+                      <li>Heart disease</li>
+                      <li>Immunity issues</li>
+                    </ul>
                   </div>
                </div>
                <div class="c-start-columns__column">
-                  <div class="c-start-columns__image c-start-columns__image--2">
+                  <!-- <div class="c-start-columns__image c-start-columns__image--2">
                      <div class="c-start-columns__image-wrapper" data-aos="fade-up" data-aos-duration="1500"><img width="240" height="400" src="assets/images/02-step-parent-image.png" class="lazyload c-start-columns__image-img"></div>
-                  </div>
+                  </div> -->
                   <div class="c-start-columns__text">
-                     <h3>Our Care coordinator will connect you to the mental health provider.</h3>
-                     <p>The mental health provider will speak to you using secure computer technology and it is as similar as an in-person appointment.</p>
+                     <h3>Assists In Alleviating Brain-Destroying Diseases</h3>
+                     <ul>
+                      <li>Alcoholism</li>
+                      <li>Depression &amp; anxiety</li>
+                      <li>Chronic stress</li>
+                      <li>Addiction</li>
+                      <li>Chronic fatigue</li>
+                      <li>PTSD</li>
+                      <li>Alzheimer’s</li>
+                    </ul>
                   </div>
                </div>
                <div class="c-start-columns__column">
-                  <div class="c-start-columns__image c-start-columns__image--3">
+                  <!-- <div class="c-start-columns__image c-start-columns__image--3">
                      <div class="c-start-columns__image-wrapper" data-aos="fade-up" data-aos-duration="2000"><img width="240" height="400" src="assets/images/03-step-image.png" class="lazyload c-start-columns__image-img"></div>
-                  </div>
+                  </div> -->
                   <div class="c-start-columns__text">
-                     <h3>Get easily accessible and immediate care.</h3>
-                     <p>Mental health provider will put your notes in electronic health records. Our care coordinator then will review diagnosed instructions, schedule follow-up visits if necessary and send a secure email with visit summary and follow-ups.</p>
+                     <h3>Numerous Therapeutic Benefits</h3>
+                     <ul>
+                       <li>Anti ageing</li>
+                       <li>Cell regeneration</li>
+                       <li>Skin lightening &amp; brightening</li>
+                       <li>Weight loss</li>
+                       <li>Sleep deprivation</li>
+                       <li>Improved concentration &amp; focus</li>
+                       <li>Energy level increase</li>
+                     </ul>
                   </div>
                </div>
             </div>
          </div>
+
+
       </div>
    </div>
-</div><div class="c-sign-up-footer c-sign-up-footer--clinicians">
+   <style type="text/css">
+     .str-life{
+      background-image: url(assets/images/banner-footer.jpg) !important;
+      background-position: 50% !important;
+     
+     }
+     /*.str-life:before{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background: rgba(0,0,0,.4);
+     }*/
+     .text-img h4{
+      color: #fff;
+      text-align: right;
+      font-family: gotham-light;
+      font-weight: 400;
+      margin-bottom: 0px;
+     }
+   </style>
+</div>
+<div class="c-sign-up-footer c-sign-up-footer--clinicians str-life">
    <div class="l-max-width">
-      <div class="l-container l-container--gutters">
-         <h2 class="c-sign-up-footer__title c-sign-up-footer__title--clinicians">
-            <div class="heading-inner">Find a telepsychiatry job. &nbsp;Embrace a flexible career</div>
-         </h2>
+      <div class="l-container l-container--gutters text-img">
+         <h4>Reset Your Life.</h4>
+         <h4>Starting Now.</h4>
+        <button style="float: right;" class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Start Today</button>
          <!---->
-         <ul class="c-sign-up-footer__buttons">
+         <!-- <ul class="c-sign-up-footer__buttons">
             <li class="c-sign-up-footer__button-item c-sign-up-footer__button-item--first"><a class="c-button c-button--solid c-button--solid-white-with-navy c-button--square-arrow c-button--ne-arrow c-button--ne-arrow-navy"><span class="c-button__inner c-button__inner--solid c-button__inner--solid-white-with-navy c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-navy">
                Providers! Join our team
                </span></a>
@@ -409,11 +483,42 @@
                For Companies
                </span></a>
             </li>
-         </ul>
+         </ul> -->
       </div>
    </div>
 </div>
+<div class="footer-main">
+      <div class="ani-box">
+        <div class="pos-rel">
+          <img src="assets/images/static.svg" class="inner-image">
+          <img src="assets/images/download.png" class="outer-ring">
 
+        </div><br><br>
+        
+        <p class="line-one">Online</p>
+        <p class="line-two">Book Now</p>
+      </div>
+      <div class="ani-box">
+        <div class="pos-rel">
+          <img src="assets/images/mobile.svg" class="inner-image">
+          <img src="assets/images/download.png" class="outer-ring">
+
+        </div><br><br>
+        <p class="line-one">Concierge</p>
+        <p class="line-two">Call us :<a href="tel:832 487 9746">832 487 9746</a> </p>
+        
+      </div>
+      <div class="ani-box">
+        <div class="pos-rel">
+          <img src="assets/images/email.svg" class="inner-image">
+          <img src="assets/images/download.png" class="outer-ring">
+
+        </div><br><br>
+        <p class="line-one">Email</p>
+        <p class="line-two"><a href="#">companyname@domain.com</a></p>
+        
+      </div>
+    </div>
 </main>
 
 <footer class="c-footer">
@@ -501,6 +606,8 @@
 });
 </script> -->
 <script src="//code.tidio.co/khpu65xbhojkuultudavqckcnyozdc8u.js" async></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
 <script>
 // Get the modal
 var modal1 = document.getElementById("myModal");
