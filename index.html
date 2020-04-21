@@ -228,15 +228,15 @@
        </div>
        <div class="row">
          <div class="col-6">
-           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" type="submit">Submit</button></p>
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" type="submit" id="submit">Submit</button></p>
          </div>
          <div class="col-6">
-           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Chat Now</button></p>
+           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" type="button" id="chat-now">Chat Now</button></p>
          </div>
        </div>
        </form>
     </div>
-
+    
     <script>
 
     $('#callback-form').submit(function(event) {
@@ -657,6 +657,8 @@
 <script src="//code.tidio.co/khpu65xbhojkuultudavqckcnyozdc8u.js" async></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
+
+
 <script>
 // Get the modal
 var modal1 = document.getElementById("myModal");
@@ -749,6 +751,13 @@ $(window).scroll(function(event){
    lastScrollTop = st;
 });
 </script>
+<script type="text/javascript">
+      $(document).on('click', '#chat-now', function() {
+
+            $(".closeForm").click();
+           tidioChatApi.open();
+        });
+    </script>
   </body>
 
 </html>
