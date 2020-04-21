@@ -261,13 +261,13 @@ html {
 }
 
 ::-moz-selection {
-	background: #2e4f25;
+	background: #262262;
 	text-shadow: none;
 	color: #f5f1e9
 }
 
 ::selection {
-	background: #2e4f25;
+	background: #262262;
 	text-shadow: none;
 	color: #f5f1e9
 }
@@ -515,7 +515,7 @@ ul {
 }
 
 .c-button--solid .c-button__inner--solid-green {
-	background-color: #2e4f25;
+	background-color: #262262;
 	color: #fff
 }
 
@@ -541,8 +541,8 @@ ul {
 }
 
 .c-button--outline .c-button__inner--outline-green {
-	border-color: #2e4f25;
-	color: #2e4f25
+	border-color: #262262;
+	color: #262262
 }
 
 .c-button--outline .c-button__inner--outline-white {
@@ -575,7 +575,7 @@ ul {
 }
 
 .c-button__inner--clear-green {
-	color: #2e4f25
+	color: #262262
 }
 
 .c-button__inner--clear-white {
@@ -786,7 +786,7 @@ ul {
 	position: absolute;
 	left: 0;
 	height: 100%;
-	background-color: #2e4f25;
+	background-color: #262262;
 	-webkit-transition: background-color .25s linear;
 	transition: background-color .25s linear
 }
@@ -936,7 +936,7 @@ ul {
 		padding-right: 34px
 	}
 	.c-masthead__main-link.active--exact {
-		color: #2e4f25
+		color: #262262
 	}
 	.c-masthead__main-link--is-parent {
 		color: rgba(22, 22, 44)
@@ -1042,7 +1042,7 @@ ul {
 		color: #000
 	}
 	.c-masthead__main-link.active--exact {
-		color: #2e4f25
+		color: #262262
 	}
 	.is-transparent:not(:hover) .c-masthead__main-link.active--exact {
 		color: #777
@@ -1068,7 +1068,7 @@ ul {
 		color: #16162c
 	}
 	.c-masthead__main-menu:hover .c-masthead__main-item:hover .c-masthead__main-link.active--exact {
-		color: #2e4f25
+		color: #262262
 	}
 	.c-masthead__main-menu:hover .c-masthead__main-item:hover .c-expand-arrow__path--masthead-parent {
 		fill: #16162c
@@ -1107,7 +1107,7 @@ ul {
 	position: relative;
 	z-index: 100;
 	color: #fff;
-	background: #2e4f25
+	background: #262262
 }
 
 .c-footer__top {
@@ -1728,7 +1728,7 @@ ul {
 
 .c-page-nav-bar__link.active--exact,
 .c-page-nav-bar__link:active {
-	color: #2e4f25
+	color: #262262
 }
 
 @media screen and (min-width:52.5em) {
@@ -1813,7 +1813,7 @@ ul {
 	display: flex;
 	flex-wrap: wrap;
 	font-weight: 700;
-	color: #2e4f25
+	color: #262262
 }
 
 @media screen and (min-width:64em) {
@@ -1928,7 +1928,7 @@ ul {
 .c-post-card__title a:active,
 .c-post-card__title a:focus,
 .c-post-card__title a:hover {
-	color: #2e4f25
+	color: #262262
 }
 
 @media screen and (min-width:64em) {
@@ -1969,7 +1969,7 @@ ul {
 	margin-top: 36px;
 	font: 700 14px/16px apercu, sans-serif;
 	letter-spacing: .036em;
-	color: #2e4f25
+	color: #262262
 }
 
 .press-card__link img {
@@ -2096,7 +2096,7 @@ ul {
 .c-standard-body blockquote {
 	margin: 3em 0;
 	padding: 3em 3em 2em;
-	border: 2px solid #2e4f25;
+	border: 2px solid #262262;
 	border-width: 2px 0
 }
 
@@ -2112,7 +2112,7 @@ ul {
 
 .c-standard-body a {
 	font-weight: 700;
-	color: #2e4f25
+	color: #262262
 }
 
 .c-standard-body a:focus,
@@ -2216,7 +2216,7 @@ ul {
 	width: 2.25em;
 	height: 2.25em;
 	border-radius: 50%;
-	background-color: #2e4f25;
+	background-color: #262262;
 	cursor: pointer;
 	-webkit-transition: background-color .25s linear;
 	transition: background-color .25s linear

@@ -220,13 +220,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
         font-size: 38px;
         font-weight: 400;
       }
-      #mob-only{
+      .mob-only{
             display: none;
           }
-          #desk-only{
+          .desk-only{
             display: block;
           }
-          .footer-main {
+.footer-main {
   padding: 90px 16px;
   background-color: #fefefe;
   color: #16162c;
@@ -267,6 +267,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin-top: 0px;
   font-size: 16px;
 }
+.fl-right{
+   float: right;
+}
+.text-img h4{
+      color: #fff;
+      text-align: right;
+      font-family: gotham-light;
+      font-weight: 400;
+      margin-bottom: 0px;
+     }
       @media (max-width: 600px){
         .modal-footer .ani-box{
             width: 100%;
@@ -315,7 +325,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
             width: 98%;
           }
           #callbackModal .join_btn {
-            background-color: #2e4f25;
+            background-color: #262262;
             color: #fff;
             padding: 14px 22px;
             height: 48px;
@@ -329,11 +339,32 @@ body {font-family: Arial, Helvetica, sans-serif;}
           .modal-content{
             border: none;
           }
-          #mob-only{
+          .mob-only{
             display: block;
           }
-          #desk-only{
+          .desk-only{
             display: none;
           }
+          .footer-main .ani-box{
+            width: 100%;
+            float: none;
+            margin-top: 3rem;
+          }
+          .fl-right{
+             float: none;
+          }
+          .text-img h4{
+            text-align: center;
+           }
+           .footer-main {
+            padding-top: 50px; 
+            padding-bottom: 20px;
+           }
+           .footer-main .line-one{
+              font-size: 20px
+            }
+            .footer-main .line-two{
+              font-size: 20px;
+            }
           
       }

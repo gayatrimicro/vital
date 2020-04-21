@@ -46,13 +46,14 @@
 }
 .join_btn
 {
-    background-color: #2e4f25;
+    background-color: #262262;
     color: #fff;
-    padding: 14px 22px;
+    padding: 14px 22px 14px 10px;
     height: 48px;
     border-radius: 5px;
     width: 210px;
     margin-top: 25px;
+    text-align: left;
 }
 
 
