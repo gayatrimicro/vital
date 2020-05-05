@@ -12,6 +12,9 @@
 {
   padding-top: 600px;
 }
+.margin-top{
+  margin-top: 1rem;
+}
 .is-transparent:not(:hover) .c-expand-arrow__path--masthead-parent {
     fill: #000;
 }

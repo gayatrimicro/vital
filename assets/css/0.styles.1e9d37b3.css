@@ -2572,7 +2572,17 @@ ul {
 		margin-bottom: 96px
 	}
 }
-
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin: 5px 0px;
+}
+#contact-us label{
+	font: 700 15px/1.25 ogg-text, serif;
+}
 @media screen and (min-width:64em) {
 	.c-home__intro {
 		width: 66.67%
