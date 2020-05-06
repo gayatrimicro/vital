@@ -18,7 +18,6 @@
     <link href="assets/css/aos.css" rel="stylesheet">
   </head>
   <body >
-    <div data-server-rendered="true" id="app" class="layout">
       <script>
        $(document).ready(function(){
           $(".c-masthead__toggle").hover(function(){
@@ -34,6 +33,8 @@
         });
       </script>
       <style type="text/css">
+        
+
         .down-move {
           margin-top: 80px;
             transition: 1s all;
@@ -48,6 +49,24 @@
         }
         .section-box{
           padding: 2rem
+        }
+        .c-home-blocks__block {
+          margin-bottom: 20px;
+        }
+        .gray-bg{
+          background-color: #e3e1e4 !important;
+        }
+        .main-content h2{
+          font-size: 32px !important;
+        }
+        .c-home__intro{
+          margin: 70px auto;
+        }
+
+        @media (max-width: 600px){
+          .c-home-blocks__block {
+            margin-bottom: 0px;}
+          }
         }
       </style>
 
@@ -265,7 +284,7 @@ include("header.php");
 <div id="more-info" class="c-home c-home--clinicians">
    <div class="l-max-width">
       <div class="l-container l-container--gutters">
-         <div class="c-home__intro">
+         <div class="c-home__intro text-center">
             <h2>
                <div class="heading-inner">Why Vital Care</div>
             </h2>
@@ -306,7 +325,7 @@ include("header.php");
                   </div>
                </div>
             </div>
-            <br><br><br><br>
+            <br class="desk-only"><br class="desk-only"><br class="desk-only"><br class="desk-only">
             <div class="c-start-columns__grid">
 
                <div class="c-start-columns__column">
@@ -341,11 +360,11 @@ include("header.php");
                </div>
             </div>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br class="desk-only">
+<br class="desk-only">
+<br class="desk-only">
+<br class="desk-only">
+<br class="desk-only">
 
 
         
@@ -357,18 +376,18 @@ include("header.php");
    
 </div>
 
-
+<div class="main-content">
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/tele-doc.png" class="lazyload"></div>
                </div>
                <br>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Infusion Therapy (HIT)</h2>
                      
                   </div><br>
-                  <p>Our Home Infusion Therapy (HIT) division brings to life the idea of “IV anywhere”. Whether you are at home, at work, or on the go, you can still receive the medication you need. Infusion therapy no longer requires hospitalization – oftentimes, it’s possible anywhere. Our team arranges home health services and we ship necessary supplies and medication directly to your doorstep, so you never even have to leave your house.</p>
+                  <p class="text-justify">Our Home Infusion Therapy (HIT) division brings to life the idea of “IV anywhere”. Whether you are at home, at work, or on the go, you can still receive the medication you need. Infusion therapy no longer requires hospitalization – oftentimes, it’s possible anywhere. Our team arranges home health services and we ship necessary supplies and medication directly to your doorstep, so you never even have to leave your house.</p>
                   <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">START HOME INFUSION</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -382,17 +401,17 @@ include("header.php");
                </div>
             </section>
 
-            <section class="c-home-blocks__block section-box">
+            <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
                </div>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Cardiac Program</h2>
                      
                   </div>
                   <br>
-                    <p>This program allows patients with congestive heart failure (CHF) and other cardiac complications to receive the medical care and support they need in the comfort of their own home in order to improve quality of life. Many patients in this program are in need of a heart transplant, LVAD implantation, palliative care, or hospice care. Our nurses provide customized one-on-one education for home inotrope infusion and dietary assistance.</p>
+                    <p class="text-justify">This program allows patients with congestive heart failure (CHF) and other cardiac complications to receive the medical care and support they need in the comfort of their own home in order to improve quality of life. Many patients in this program are in need of a heart transplant, LVAD implantation, palliative care, or hospice care. Our nurses provide customized one-on-one education for home inotrope infusion and dietary assistance.</p>
                      <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -412,11 +431,11 @@ include("header.php");
                </div>
                <br>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Cystic Fibrosis Program</h2>
                      
                   </div><br>
-                  <p>This program is tailored to patients with chronic progressive pulmonary symptoms like difficulty breathing, infections, inflammation, and respiratory failure to receive the medical support they need in the home setting. Patients in this program may be in need of a lung transplant, respiratory therapy, palliative care, or hospice care. Our nurses are experienced in cystic fibrosis management and trained to maximize therapy outcomes.</p>
+                  <p class="text-justify">This program is tailored to patients with chronic progressive pulmonary symptoms like difficulty breathing, infections, inflammation, and respiratory failure to receive the medical support they need in the home setting. Patients in this program may be in need of a lung transplant, respiratory therapy, palliative care, or hospice care. Our nurses are experienced in cystic fibrosis management and trained to maximize therapy outcomes.</p>
                   <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -430,17 +449,17 @@ include("header.php");
                </div>
             </section>
 
-            <section class="c-home-blocks__block section-box">
+            <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
                </div>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Antibiotic Therapy Program</h2>
                      
                   </div>
                   <br>
-                    <p>There are many different diagnoses that require anti-infective infusions including cellulitis, orthopedic and joint infections, sepsis, complicated UTIs, pneumonia, viral or fungal infections, gastro-intestinal infections, abscesses, endocarditis, and more. We are committed to preventing hospitalizations through physician consultation with our pharmacists. Our team can help with the selection of an individualized anti-infective that will best meet the patient’s needs. We also manage each new referral and are available to assist in gathering necessary documentation for processing patient's care and can oftentimes start home health services the same day.</p>
+                    <p class="text-justify">There are many different diagnoses that require anti-infective infusions including cellulitis, orthopedic and joint infections, sepsis, complicated UTIs, pneumonia, viral or fungal infections, gastro-intestinal infections, abscesses, endocarditis, and more. We are committed to preventing hospitalizations through physician consultation with our pharmacists. Our team can help with the selection of an individualized anti-infective that will best meet the patient’s needs. We also manage each new referral and are available to assist in gathering necessary documentation for processing patient's care and can oftentimes start home health services the same day.</p>
                      <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -460,11 +479,11 @@ include("header.php");
                </div>
                <br>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Nutrition Support Program</h2>
                      
                   </div><br>
-                  <p>This program’s focus is the provision of exemplary, customized care for patients at home receiving enteral (EN) or parenteral nutrition (PN) support therapy. Every patient is followed by a specialized nutrition support team including a pharmacist, dietitian, nurse, and IV technician the entire time he or she is on service.  A tailored care plan is designed for each patient including comprehensive assessment and follow-up by a Board-Certified Nutrition Support Dietitian. Our team collaborates with the patient’s physician, hospital and/or outpatient clinic to bridge a smooth transition to home. Our goal is to keep our patients safe with meticulous attention paid to the patient’s quality of life while on these life-saving therapies.</p>
+                  <p class="text-justify">This program’s focus is the provision of exemplary, customized care for patients at home receiving enteral (EN) or parenteral nutrition (PN) support therapy. Every patient is followed by a specialized nutrition support team including a pharmacist, dietitian, nurse, and IV technician the entire time he or she is on service.  A tailored care plan is designed for each patient including comprehensive assessment and follow-up by a Board-Certified Nutrition Support Dietitian. Our team collaborates with the patient’s physician, hospital and/or outpatient clinic to bridge a smooth transition to home. Our goal is to keep our patients safe with meticulous attention paid to the patient’s quality of life while on these life-saving therapies.</p>
                   <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -478,17 +497,17 @@ include("header.php");
                </div>
             </section>
 
-            <section class="c-home-blocks__block section-box">
+            <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
                </div>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Immunoglobulin (IVIG) (SCIG) Therapy Program</h2>
                      
                   </div>
                   <br>
-                    <p>Immune globulin (Ig) is a tested and safe solution made from human plasma containing antibodies and can be given intravenously (IVIG) meaning through a vein or subcutaneously (SCIG or SubQ) meaning under the skin. This therapy is used to protect patients that are unable to fight infections due to a low production of antibodies, or someone whose immune system is attacking their body’s healthy cells. Ig is prepared from blood donated by thousands of people, creating a super-concentrated collection of antibodies capable of warding off viruses and/or bacteria. We offer multiple care options for IVIG and SCIG infusions. Care options for our patients include home infusion, medical suite infusion, and infusion centers (IVCs).</p>
+                    <p class="text-justify">Immune globulin (Ig) is a tested and safe solution made from human plasma containing antibodies and can be given intravenously (IVIG) meaning through a vein or subcutaneously (SCIG or SubQ) meaning under the skin. This therapy is used to protect patients that are unable to fight infections due to a low production of antibodies, or someone whose immune system is attacking their body’s healthy cells. Ig is prepared from blood donated by thousands of people, creating a super-concentrated collection of antibodies capable of warding off viruses and/or bacteria. We offer multiple care options for IVIG and SCIG infusions. Care options for our patients include home infusion, medical suite infusion, and infusion centers (IVCs).</p>
                      <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -507,11 +526,11 @@ include("header.php");
                </div>
                <br>
                <div class="c-home-blocks__content">
-                  <div class="c-home-blocks__text">
+                  <div class="c-home-blocks__text mob-center">
                      <h2>Home Hospice & Pain Management</h2>
                      
                   </div><br>
-                  <p>Our commitment to our patients with pain and other related symptoms is to maximize their comfort and improve their quality of life. We focus on controlling our patient’s pain symptoms while maintaining their awareness and cognitive function. Our pharmacists are trained to provide equal analgesic dosing to provide a smooth transition from oral or transdermal pain medications to IV or SubQ pain management. Hospice patients take immediate priority in the pharmacy. Their medications are prepared immediately and delivered to the bedside as soon as possible to provide pain relief.</p>
+                  <p class="text-justify">Our commitment to our patients with pain and other related symptoms is to maximize their comfort and improve their quality of life. We focus on controlling our patient’s pain symptoms while maintaining their awareness and cognitive function. Our pharmacists are trained to provide equal analgesic dosing to provide a smooth transition from oral or transdermal pain medications to IV or SubQ pain management. Hospice patients take immediate priority in the pharmacy. Their medications are prepared immediately and delivered to the bedside as soon as possible to provide pain relief.</p>
                   <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback2">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
@@ -526,7 +545,7 @@ include("header.php");
             </section>
 
 
-
+</div>
 
 
 
@@ -671,7 +690,6 @@ include("header.php");
       </div>
    </div>
 </footer>
-</div>
     <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
     <script src='assets/js/slick.min.js'></script>
     <script src='assets/js/slick-animation.min.js'></script>

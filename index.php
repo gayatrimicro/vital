@@ -18,7 +18,6 @@
     <link href="assets/css/aos.css" rel="stylesheet">
   </head>
   <body >
-    <div data-server-rendered="true" id="app" class="layout">
       <script>
        $(document).ready(function(){
           $(".c-masthead__toggle").hover(function(){
@@ -542,7 +541,6 @@ include("header.php");
       </div>
    </div>
 </footer>
-</div>
     <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
     <script src='assets/js/slick.min.js'></script>
     <script src='assets/js/slick-animation.min.js'></script>

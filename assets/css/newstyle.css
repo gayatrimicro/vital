@@ -1,5 +1,8 @@
-
-
+@media (max-width: 600px){
+main{
+  width: 102vw;
+}
+}
 .c-masthead
 {
   z-index: 100000;
@@ -35,7 +38,6 @@
 }
 .sec_slid
 {
-  position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
@@ -72,7 +74,7 @@
   position: relative;
 }
 .slide .slide__img {
-  width: 100%;
+  width: 102%;
   height: auto;
   overflow: hidden;
 }
@@ -274,7 +276,7 @@
 @media (max-width: 767px) {
 .slider,
   .slide {
-    height: 630px;
+    height: 100vh;
   }
   .hiddenxs
   {
@@ -303,7 +305,7 @@
 }
 
 .sec_slid {
-    position: absolute;
+    
     top: 55px;
     width: 100%;
     height: 100%;
@@ -318,35 +320,23 @@
 }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
       .c-home__intro {
-    margin-top: 80px;
+    margin-top: 40px;
 }
   }
-@media (max-width: 400px) {
-      .c-home__intro {
-    margin-top: 50px;
-}
-  }
-@media (max-width: 370px) {
-      .c-home__intro {
-    margin-top: 37px;
-}
-  }
+
 @media (max-width: 365px) {
 .slide .slide__img img {
-  height: 505px;
+  height: 100vh;
 }
-.c-home__intro {
-    margin-top: 0;
-}
+
   }
 /*--------------slider start end---------------*/
 
 @media (max-width: 800px) and (min-width: 600px){
   .sec_slid
     {
-      position: absolute;
       top: 0;
       width: 100%;
       height: 150% !important;

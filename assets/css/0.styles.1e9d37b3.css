@@ -75,6 +75,9 @@ h1 {
 .mob-only{
 	display: none;
 }
+.desk-only{
+	display: block;
+}
 .text-center{
 	text-align: center !important;
 }
@@ -85,6 +88,9 @@ h1 {
 @media (max-width: 600px){
 	.mob-only{
 		display: block;
+	}
+	.desk-only{
+		display: none;
 	}
 	.mob-center{
 		text-align: center !important;
@@ -3436,7 +3442,9 @@ input[type=text], select, textarea {
 		height: 440px
 	}
 }
-
+.text-justify{
+	text-align: justify;
+}
 @media screen and (min-width:64em) {
 	.c-hero--covid-19 {
 		height: 440px
