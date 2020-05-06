@@ -247,7 +247,7 @@ include("header.php");
          <div class="c-home-blocks c-home__intro">
             <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn " style="display: inline-block;width: 240px;text-align: center;" onclick="window.open('assets/pdf/ACTEMRA-(TOCILIZUMAB)-INFUSION-ORDERS.pdf')" target="_blank"> IVIG</button>
 
-            <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;text-align: center;" onclick="window.open('assets/pdf/Oncology-Patient-Ref-Form-Vital-Care.pdf.pdf')" target="_blank"> Oncology</button>
+            <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;text-align: center;" onclick="window.open('assets/pdf/Oncology-Patient-Ref-Form-Vital-Care.pdf')" target="_blank"> Oncology</button>
 
             
             
