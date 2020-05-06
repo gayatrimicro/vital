@@ -72,7 +72,27 @@ h1 {
 	font-size: 2em;
 	margin: .67em 0
 }
-
+.mob-only{
+	display: none;
+}
+.text-center{
+	text-align: center !important;
+}
+.map-mob-top{
+		margin-top: 75px !important;
+		margin-left: -5px;
+	}
+@media (max-width: 600px){
+	.mob-only{
+		display: block;
+	}
+	.mob-center{
+		text-align: center !important;
+	}
+	.map-mob-top{
+		margin-top: 50px !important;
+	}
+}
 hr {
 	box-sizing: content-box;
 	height: 0;

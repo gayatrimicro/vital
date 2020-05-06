@@ -2,7 +2,7 @@
 <html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>Download form | Vital Care</title>
+    <title>Contact us | Vital Care</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -43,109 +43,21 @@
           margin-top: -80px;
             transition: 1s all;
         }
+        .c-home-blocks__image:after{
+              padding-bottom: 80.333%;
+        }
         @media screen and (min-width:52.5em) {
   .c-home__intro {
     margin: 80px auto;
     width: 83%
-  }
+  }}
+
   
-
-
-}
-
-@media (max-width: 600px){
-  .mob-banner{
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-  }
-}
       </style>
 
-<header id="c-masthead" class="c-masthead is-transparent">
-   <div class="l-container l-container--gutters l-container--masthead">
-      <nav class="c-masthead__nav">
-         <div class="c-masthead__logo">
-            <a href="#" class="active--exact active"><img src="assets/images/vital-logo.png" style="width: 14rem;">
-               <!-- logo -->
-               <!-- <img src="assets/images/logo.png" class="g-image g-image--loaded" style="max-width: 150%;" width="107" alt="logo">
-               <noscript><img src="assets/images/logo.png" class="g-image g-image--loaded" width="107" alt="logo"></noscript> -->
-            </a>
-         </div>
-         <div class="c-masthead__utilities"><button class="c-masthead__toggle"><span class="h-visually-hidden">Menu</span><span class="c-masthead__toggle-icon"></span></button>
-          <a class="c-button c-button--small c-button--solid c-button--solid-green c-button--masthead-utility c-button--masthead-utility-sign-up"><span class="c-button__inner c-button__inner--small c-button__inner--solid c-button__inner--solid-green c-button__inner--masthead-utility c-button__inner--masthead-utility-sign-up">
-             Book Online
-            </span></a>
-            <!-- <a href="#" class="c-button c-button--small c-button--outline c-button--outline-green c-button--masthead-utility c-button--masthead-utility-sign-in"><span class="c-button__inner c-button__inner--small c-button__inner--outline c-button__inner--outline-green c-button__inner--masthead-utility c-button__inner--masthead-utility-sign-in">
-            Sign In
-            </span></a> -->
-            <a href="tel:832 487 9746" class="c-button c-button--small c-button--masthead-utility c-button--masthead-utility-sign-in"><span class="c-button__inner c-button__inner--small c-button__inner--outline c-button__inner--outline-green c-button__inner--masthead-utility c-button__inner--masthead-utility-sign-in" style="font-size: 18px;font-family: gotham-light;font-weight: 400;">
-             <img src="assets/images/mobile.svg" style="width: 25px"> 832 487 9746
-            </span></a>
-         </div>
-         <div class="c-masthead__menus">
-            <div class="l-container l-container--gutters">
-               <button class="c-masthead__close">
-                  <span class="h-visually-hidden">Close</span><img alt="&amp;times;" src="assets/static/close-x.df86f52.8862ecf99455d0554092c54a7fa0ca52.svg" class="c-masthead__close-icon g-image g-image--lazy g-image--loading">
-                  <noscript><img src="assets/static/close-x.df86f52.8862ecf99455d0554092c54a7fa0ca52.svg" class="c-masthead__close-icon g-image g-image--loaded" width="14" alt="&times;"></noscript>
-               </button>
-               <ul class="c-masthead__main-menu">
-                  <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link active--exact active">Home</a></li>
-                  <script type="text/javascript">
-                  //   $('#services-menu').hover(
-                  //        function(){ 
-                  //         alert("hello");
-                  //         $(this).addClass('is-expanded') 
-                  //       }
-                  // )
-                  </script>
-                  <li id="services-menu" class="c-masthead__main-item c-masthead__main-item--is-parent blog">
-                     <a class="c-masthead__main-link c-masthead__main-link--no-href c-masthead__main-link--is-parent">
-                        Services
-                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41" class="c-expand-arrow c-expand-arrow--masthead-parent">
-                           <path d="M6,7.41l6-6L10.59,0,6,4.58,1.41,0,0,1.41Z" class="c-expand-arrow__path c-expand-arrow__path--masthead-parent"></path>
-                        </svg>
-                     </a>
-                     <ul id="services-submenu" class="c-masthead__sub-menu">
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Home Infusion Therapy</a></li>
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Hemophilia</a></li>
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Specialty</a></li>
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Insite Therapy Center</a></li>
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">IVIG</a></li>
-
-                     </ul>
-                  </li> 
-                  <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Providers</a></li> -->
-                  <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Clinics</a></li> -->
-                  <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">Partner Us</a></li> -->
-                  <!-- <li class="c-masthead__main-item c-masthead__main-item--is-parent blog">
-                     <a class="c-masthead__main-link c-masthead__main-link--no-href c-masthead__main-link--is-parent">
-                        Partner Us
-                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41" class="c-expand-arrow c-expand-arrow--masthead-parent">
-                           <path d="M6,7.41l6-6L10.59,0,6,4.58,1.41,0,0,1.41Z" class="c-expand-arrow__path c-expand-arrow__path--masthead-parent"></path>
-                        </svg>
-                     </a>
-                     <ul class="c-masthead__sub-menu">
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Momentum - Clinician Edition</a></li>
-                        <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Momentum - Company Edition</a></li>
-                     </ul>
-                  </li> -->
-               </ul>
-               <ul class="c-masthead__button-menu">
-                  <!-- <li class="c-masthead__button-item c-masthead__button-item--sign-in"><a href="#" class="c-button c-button--outline c-button--outline-green"><span class="c-button__inner c-button__inner--outline c-button__inner--outline-green">
-                     Sign In
-                     </span></a>
-                  </li> -->
-                  <li class="c-masthead__button-item c-masthead__button-item--sign-up"><a class="c-button c-button--solid c-button--solid-green"><span class="c-button__inner c-button__inner--solid c-button__inner--solid-green">
-                      Schedule an appointment
-                     </span></a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-   </div>
-</header>
+<?php
+include("header.php");
+?>
 <main>
  <div id="myModal" class="modal">
 
@@ -302,9 +214,9 @@
   </div>
 
 </div>
-<div class="pos_rel">
-    <div >
-        <img src="assets/images/form.jpg" class="mob-banner" style="width: 100%;">
+<div class="pos_rel map-mob-top">
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.679291494949!2d-111.99695034974138!3d33.639556646718304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b7179e2c9bffb%3A0xbcecaf641aede57e!2s4045+E+Bell+Rd+%23157%2C+Phoenix%2C+AZ+85032%2C+USA!5e0!3m2!1sen!2sin!4v1474953634113" style="width: 100%;height: 70vh;"></iframe>
      
 </div>
 </div>
@@ -318,17 +230,73 @@
     <!-- Slider ends -->
 <div id="more-info" class="c-home c-home--clinicians">
    <div class="l-max-width">
-      <div class="l-container l-container--gutters" style="text-align: center;">
-         <div class="c-home__intro">
+      <div class="l-container l-container--gutters">
+         <div class="c-home__intro mob-center">
             <h2>
-               <div class="heading-inner">INFUSION CENTER ORDER FORMS</div>
+               <div class="heading-inner">Contact Vital Care</div>
             </h2>
-            
+            <p>Have a question? Or want to send us a note?<br>
+                We would love to hear from you.</p>
          </div>
-         <div class="c-home-blocks c-home__intro">
-            <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn " style="display: inline-block;width: 240px;text-align: center;" onclick="window.open('assets/pdf/ACTEMRA-(TOCILIZUMAB)-INFUSION-ORDERS.pdf')" target="_blank"> IVIG</button>
+         <div class="c-home-blocks">
+            <section class="c-home-blocks__block">
+               <div class="c-home-blocks__image">
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);">
+                    <div style="">
+                      <div class="row mob-center">
+                        <p>
+                          <strong style="font: 700 23px/1.25 ogg-text, serif;">Find us:</strong><br class="mob-only"> &nbsp;&nbsp;&nbsp;1125 Cypress Station Drive,Houston, TX 77090.
+                        </p>
+                      </div>
+                        <div class="row mob-center">
+                          <p>
+                          <strong style="font: 700 23px/1.25 ogg-text, serif;">Call us:</strong><br class="mob-only">  &nbsp;&nbsp;&nbsp;<a href="tel:832 487 974">832 487 974</a>
+                        </p>
+                      </div>
+                        <div class="row mob-center">
+                          <p>
+                          <strong style="font: 700 23px/1.25 ogg-text, serif;">Mail us:</strong><br class="mob-only"> &nbsp;&nbsp;&nbsp;<a href="mailto:vitalcarenorthhouston@outlook.com">vitalcarenorthhouston@outlook.com</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+               <div class="c-home-blocks__content">
+                  
+                  <form id="contact-us">
+                    <div class="row margin-top">
+                      <label for="f_name">First Name:</label>
+                      <input type="text" name="f_name" id="f_name" placeholder="Enter Your First Name.....">
+                    </div>
+                    <div class="row margin-top">
+                      <label for="l_name">Last Name:</label>
+                      <input type="text" name="l_name" id="l_name" placeholder="Enter Your Last Name.....">
+                    </div>
+                    <div class="row margin-top">
+                      <label for="email_id">Email:</label>
+                      <input type="text" name="email_id" id="email_id" placeholder="Enter Your Email.....">
+                    </div>
+                    <div class="row margin-top">
+                      <label for="message">Message:</label>
+                      <textarea id="message" rows="4" name="message" placeholder="Enter Your Message......"></textarea>
+                    </div>
 
-            <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;text-align: center;" onclick="window.open('assets/pdf/Oncology-Patient-Ref-Form-Vital-Care.pdf.pdf')" target="_blank"> Oncology</button>
+                  </form>
+                  <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn text-center" id="reqCallback2">Send now </button></p>
+                  <div class="c-home-blocks__quote">
+                     <div class="c-home-blocks__quote-text">
+                        <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
+                        <div>
+                          
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+               <br class="mob-only">
+               <br class="mob-only">
+               <br class="mob-only">
+            </section>
 
             
             
@@ -336,10 +304,7 @@
          </div>
          
          
-<br>
-<br>
-<br>
-<br>
+
 
       </div>
    </div>
