@@ -54,7 +54,7 @@
           margin-bottom: 20px;
         }
         .gray-bg{
-          background-color: #e3e1e4 !important;
+          background-color: #cbe7e7 !important;
         }
         .main-content h2{
           font-size: 32px !important;
@@ -573,123 +573,14 @@ include("header.php");
 
       </div>
    </div>
-  
-<section style="padding: 2rem; text-align: center;background-color: #cbe7e7">
-  <h3 style="font-size: 16px;font-weight: 400;font-family: gotham-light;display: inline-block;">Not sure which infusion is right for you? Ask our specialist for advice!&nbsp;&nbsp;&nbsp;&nbsp;
-  <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Schedule an appointment</button><br class="mob-only"><br class="mob-only">
-  &nbsp;&nbsp;or&nbsp;&nbsp;<br class="mob-only">
-  <a href="tel:832 487 9746"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green join_btn" style="display: inline-block;width: 170px;background-color: #fff;color: #262262;border:thin solid #262262;text-align: center;">Call us 832 487 9746</button></a>
-   </h3>
-</section>
 
 
-
-
-<div class="footer-main">
-      <div class="ani-box">
-        <div class="pos-rel">
-          <img src="assets/images/static.svg" class="inner-image">
-          <img src="assets/images/download.png" class="outer-ring">
-
-        </div><br><br>
-        
-        <p class="line-one">Online</p>
-        <p class="line-two">Book Now</p>
-      </div>
-      <div class="ani-box">
-        <div class="pos-rel">
-          <img src="assets/images/mobile.svg" class="inner-image">
-          <img src="assets/images/download.png" class="outer-ring">
-
-        </div><br><br>
-        <p class="line-one">Concierge</p>
-        <p class="line-two">Call us: <a href="tel:832 487 9746">832 487 9746</a> </p>
-        
-      </div>
-      <div class="ani-box">
-        <div class="pos-rel">
-          <img src="assets/images/email.svg" class="inner-image">
-          <img src="assets/images/download.png" class="outer-ring">
-
-        </div><br><br>
-        <p class="line-one">Email</p>
-        <p class="line-two"><a href="mailto:vitalcarenorthhouston@outlook.com">vitalcarenorthhouston@outlook.com</a></p>
-        
-      </div>
-    </div>
-    <div class="accred">
-      <div class="row">
-        <div class="col-2">
-          <img src="assets/images/clientLogo1.png" class="accred-img">
-        </div>
-        <div class="col-2">
-          <img src="assets/images/clientLogo2.jpg" class="accred-img">
-        </div>
-        <div class="col-2">
-          <img src="assets/images/clientLogo3.jpg" class="accred-img">
-        </div>
-        <div class="col-2">
-          <img src="assets/images/clientLogo4.jpg" class="accred-img">
-        </div>
-        <div class="col-2">
-          <img src="assets/images/clientLogo5.jpg" class="accred-img">
-        </div>
-        <div class="col-2">
-          <img src="assets/images/clientLogo6.jpg" class="accred-img">
-        </div>
-      </div>
-    </div>
+    
 </main>
 
-<footer class="c-footer">
-   <!-- <div class="c-footer__top">
-      <div class="l-container l-container--gutters">
-         <nav class="c-footer__nav-grid">
-            <div class="c-footer__nav-column c-footer__nav-column--main">
-               <ul class="c-footer__menu c-footer__menu--main">
-                  <li class="c-footer__menu-item c-footer__menu-item--main"><a href="#" class="c-footer__menu-link active--exact active">For Providers</a></li>
-                  <li class="c-footer__menu-item c-footer__menu-item--main"><a href="#" class="c-footer__menu-link">For Clinics</a></li>
-                  <li class="c-footer__menu-item c-footer__menu-item--main"><a href="#" class="c-footer__menu-link">Partner Us</a></li>
-               </ul>
-            </div>
-            <div class="c-footer__nav-column c-footer__nav-column--secondary">
-               <ul class="c-footer__menu c-footer__menu--secondary">
-                  <li class="c-footer__menu-item c-footer__menu-item--secondary"><a href="#" class="c-footer__menu-link">Services</a></li>
-                  <li class="c-footer__menu-item c-footer__menu-item--secondary"><a href="#" class="c-footer__menu-link">About Us</a></li>
-                  
-               </ul>
-            </div>
-            <div class="c-footer__nav-column c-footer__nav-column--secondary">
-               <ul class="c-footer__menu c-footer__menu--secondary"></ul>
-            </div>
-            <div class="c-footer__nav-column c-footer__nav-column--brand">
-               <div class="c-footer__logo"></div>
-               <ul class="c-footer__menu c-footer__menu--external">
-                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="Facebook" class="c-footer__menu-icon fab fa-facebook-f"></i></a></li>
-                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="Twitter" class="c-footer__menu-icon fab fa-twitter"></i></a></li>
-                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="LinkedIn" class="c-footer__menu-icon fab fa-linkedin"></i></a></li>
-                  <li class="c-footer__menu-item c-footer__menu-item--external"><a href="#" target="_blank" class="c-footer__menu-link c-footer__menu-link--external"><i title="Instagram" class="c-footer__menu-icon fab fa-instagram"></i></a></li>
-               </ul>
-            </div>
-         </nav>
-      </div>
-   </div> -->
-   <div class="c-footer__bottom">
-      <div class="l-container l-container--gutters">
-         <div class="c-footer__bottom-grid">
-            <nav class="c-footer__bottom-nav">
-               <ul class="c-footer__bottom-menu">
-                 <!-- <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">About Us</a></li>
-                   <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">Careers</a></li> -->
-                  <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">Privacy Policy</a></li>
-                  <li class="c-footer__bottom-menu-item"><a href="#" class="c-footer__bottom-menu-link">Terms and Conditions</a></li>
-               </ul>
-            </nav>
-            <div class="c-footer__legal">©2020 Vital Care, All rights reserved.</div>
-         </div>
-      </div>
-   </div>
-</footer>
+<?php
+include("footer.php")
+?>
     <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
     <script src='assets/js/slick.min.js'></script>
     <script src='assets/js/slick-animation.min.js'></script>
