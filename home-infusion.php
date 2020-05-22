@@ -240,7 +240,7 @@ include("header.php");
       <div class="slide__content">
         <div class="slide__content--headings">
            <h2 class="animated" data-animation-in="fadeInUp" style="font-size: 35px;">Needing convenient infusion therapy?
-          <br>Let's do it at home.</h2>
+          <br><br>Let's do it at home.</h2>
            <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback">Request Call Back </button></p>
         </div>
       </div>
@@ -299,7 +299,7 @@ include("header.php");
                   <div class="c-start-columns__text">
                      <h3>Same Day Start of Care</h3>
                      <p>We make the transition from hospital to home as smooth as possible. We accept most  <br>insurances and can coordinate same day home health services.</p>
-                     <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button>
+                     <!-- <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button> -->
                   </div>
 
                </div>
@@ -311,7 +311,7 @@ include("header.php");
                   <div class="c-start-columns__text">
                      <h3>Easy-to-Learn Infusion Pumps</h3>
                      <p> We use infusion pumps that are small, <br> lightweight, and portable providing <br> patients with flexibility and mobility in the home setting.</p>
-                     <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button>
+                     <!-- <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button> -->
                   </div>
                </div>
                <div class="c-start-columns__column">
@@ -321,7 +321,7 @@ include("header.php");
                   <div class="c-start-columns__text">
                      <h3>Adjustable Dosing Times</h3>
                      <p>We are able to customize the dosing times for medication in order to accommodate the patient's schedule ensuring rest, healing, and achievable draw times.</p>
-                     <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button>
+                     <!-- <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button> -->
                   </div>
                </div>
             </div>
@@ -335,7 +335,7 @@ include("header.php");
                   <div class="c-start-columns__text">
                      <h3>Pharmacist On-call 24/7</h3>
                      <p>We know that urgent situations may arise any time which is why after hr calls are answered live clinical staff and our we have pharmacy staff on-call 24/7.</p>
-                     <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button>
+                     <!-- <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button> -->
                   </div>
                </div>
                <div class="c-start-columns__column">
@@ -345,7 +345,7 @@ include("header.php");
                   <div class="c-start-columns__text">
                      <h3>We Provide Patient Education</h3>
                      <p>Our team provides detailed patient education via telehealth methods or at the bedside when it is safe and acceptable to do so.</p>
-                     <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;">Learn More</button>
+                     <!-- <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;">Learn More</button> -->
                   </div>
                </div>
                <div class="c-start-columns__column">
@@ -355,7 +355,7 @@ include("header.php");
                   <div class="c-start-columns__text">
                      <h3> Shipping at No Extra Cost</h3>
                      <p>We ship ready-to-use medication and medical supplies overnight directly to the patient's doorstep so they have what they need when they need it.</p>
-                     <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button>
+                     <!-- <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Learn More</button> -->
                   </div>
                </div>
             </div>
@@ -379,7 +379,7 @@ include("header.php");
 <div class="main-content">
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/tele-doc.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/hit.png" class="lazyload"></div>
                </div>
                <br>
                <div class="c-home-blocks__content">
@@ -401,7 +401,7 @@ include("header.php");
                </div>
             </section>
 
-            <section class="c-home-blocks__block section-box gray-bg">
+            <!-- <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
                </div>
@@ -422,10 +422,10 @@ include("header.php");
                      
                   </div>
                </div>
-            </section>
+            </section> -->
 
 
-<section class="c-home-blocks__block section-box">
+<!-- <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
                   <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/tele-doc.png" class="lazyload"></div>
                </div>
@@ -447,11 +447,11 @@ include("header.php");
                      
                   </div>
                </div>
-            </section>
+            </section> -->
 
             <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/hatp.png" class="lazyload"></div>
                </div>
                <div class="c-home-blocks__content">
                   <div class="c-home-blocks__text mob-center">
@@ -475,7 +475,7 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/tele-doc.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/hnsp.png" class="lazyload"></div>
                </div>
                <br>
                <div class="c-home-blocks__content">
@@ -499,7 +499,7 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/benefit-02.jpg" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/ivig.png" class="lazyload"></div>
                </div>
                <div class="c-home-blocks__content">
                   <div class="c-home-blocks__text mob-center">
@@ -522,7 +522,7 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/tele-doc.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/hhpm.png" class="lazyload"></div>
                </div>
                <br>
                <div class="c-home-blocks__content">

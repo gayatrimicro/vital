@@ -70,7 +70,8 @@ include("header.php");
     </div>
 
     <div class="modal-footer">
-      <div class="ani-box">
+      <div class="ani-box" id="reqCallback4">
+        <a href="javascript:void(0);">
         <div class="pos-rel">
           <img src="assets/images/static.svg" class="inner-image">
           <img src="assets/images/download.png" class="outer-ring">
@@ -79,26 +80,29 @@ include("header.php");
         
         <p class="line-one">Schedule</p>
         <p class="line-two">an appointment</p>
+      </a>
       </div>
       <div class="ani-box">
+        <a href="tel:832 487 9746">
         <div class="pos-rel">
           <img src="assets/images/mobile.svg" class="inner-image">
           <img src="assets/images/download.png" class="outer-ring">
 
         </div><br>
         <p class="line-one">Concierge</p>
-        <p class="line-two">Call us: <a href="tel:832 487 9746">832 487 9746</a> </p>
-        
+        <p class="line-two">Call us: 832 487 9746 </p>
+        </a>
       </div>
       <div class="ani-box">
+        <a href="mailto:vitalcarenorthhouston@outlook.com">
         <div class="pos-rel">
           <img src="assets/images/email.svg" class="inner-image">
           <img src="assets/images/download.png" class="outer-ring">
 
         </div><br>
         <p class="line-one">Email</p>
-        <p class="line-two"><a href="mailto:vitalcarenorthhouston@outlook.com">vitalcarenorthhouston@outlook.com</a></p>
-        
+        <p class="line-two">vitalcarenorthhouston@outlook.com</p>
+        </a>
       </div>
     </div>
   </div>
@@ -427,7 +431,7 @@ include("header.php");
 
 <section style="padding: 2rem; text-align: center;background-color: #cbe7e7">
   <h3 style="font-size: 16px;font-weight: 400;font-family: gotham-light;display: inline-block;">Not sure which infusion is right for you? Ask our specialist for advice!&nbsp;&nbsp;&nbsp;&nbsp;
-  <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;"> Schedule an appointment</button><br class="mob-only"><br class="mob-only">
+  <button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" style="display: inline-block;width: 240px;" id="reqCallback3"> Schedule an appointment</button><br class="mob-only"><br class="mob-only">
   &nbsp;&nbsp;or&nbsp;&nbsp;<br class="mob-only">
   <a href="tel:832 487 9746"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green join_btn" style="display: inline-block;width: 170px;background-color: #fff;color: #262262;border:thin solid #262262;text-align: center;">Call us 832 487 9746</button></a>
    </h3>
@@ -437,7 +441,8 @@ include("header.php");
 
 
 <div class="footer-main">
-      <div class="ani-box">
+      <div class="ani-box" id="reqCallback5">
+        <a href="javascript:void(0);">
         <div class="pos-rel">
           <img src="assets/images/static.svg" class="inner-image">
           <img src="assets/images/download.png" class="outer-ring">
@@ -446,26 +451,29 @@ include("header.php");
         
         <p class="line-one">Online</p>
         <p class="line-two">Book Now</p>
+        </a>
       </div>
       <div class="ani-box">
+        <a href="tel:832 487 9746">
         <div class="pos-rel">
           <img src="assets/images/mobile.svg" class="inner-image">
           <img src="assets/images/download.png" class="outer-ring">
 
         </div><br><br>
         <p class="line-one">Concierge</p>
-        <p class="line-two">Call us: <a href="tel:832 487 9746">832 487 9746</a> </p>
-        
+        <p class="line-two">Call us: 832 487 9746 </p>
+        </a>
       </div>
       <div class="ani-box">
+        <a href="mailto:vitalcarenorthhouston@outlook.com">
         <div class="pos-rel">
           <img src="assets/images/email.svg" class="inner-image">
           <img src="assets/images/download.png" class="outer-ring">
 
         </div><br><br>
         <p class="line-one">Email</p>
-        <p class="line-two"><a href="mailto:vitalcarenorthhouston@outlook.com">vitalcarenorthhouston@outlook.com</a></p>
-        
+        <p class="line-two">vitalcarenorthhouston@outlook.com</p>
+        </a>
       </div>
     </div>
     
@@ -538,6 +546,15 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+
+
+
+
+
+
+
+
 <script>
 // Get the modal
 var modal = document.getElementById("callbackModal");
@@ -545,6 +562,9 @@ var modal = document.getElementById("callbackModal");
 // Get the button that opens the modal
 var btn = document.getElementById("reqCallback");
 var btn2 = document.getElementById("reqCallback2");
+var btn3 = document.getElementById("reqCallback3");
+var btn4 = document.getElementById("reqCallback4");
+var btn5 = document.getElementById("reqCallback5");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("closeForm")[0];
@@ -555,6 +575,18 @@ btn.onclick = function() {
 }
 btn2.onclick = function() {
   modal.style.display = "block";
+}
+btn3.onclick = function() {
+  modal.style.display = "block";
+}
+btn4.onclick = function() {
+  modal.style.display = "block";
+  $(".close").click();
+}
+
+btn5.onclick = function() {
+  modal.style.display = "block";
+  // $(".close").click();
 }
 
 // When the user clicks on <span> (x), close the modal

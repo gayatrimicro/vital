@@ -51,6 +51,7 @@
 
                      </ul>
                   </li> 
+                  <li class="c-masthead__main-item"><a href="contact.php" class="c-masthead__main-link active--exact active">Contact us</a></li>
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Providers</a></li> -->
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Clinics</a></li> -->
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">Partner Us</a></li> -->
