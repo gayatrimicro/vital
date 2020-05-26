@@ -26,7 +26,7 @@
                   <noscript><img src="assets/static/close-x.df86f52.8862ecf99455d0554092c54a7fa0ca52.svg" class="c-masthead__close-icon g-image g-image--loaded" width="14" alt="&times;"></noscript>
                </button>
                <ul class="c-masthead__main-menu">
-                  <li class="c-masthead__main-item"><a href="http://spacegm.com/vital/" class="c-masthead__main-link active--exact active">Home</a></li>
+                  <li class="c-masthead__main-item"><a href="http://spacegm.com/vital-care/" class="c-masthead__main-link active--exact active">Home</a></li>
                   <script type="text/javascript">
                   //   $('#services-menu').hover(
                   //        function(){ 
@@ -43,7 +43,7 @@
                         </svg>
                      </a>
                      <ul id="services-submenu" class="c-masthead__sub-menu">
-                        <li class="c-masthead__sub-item"><a href="http://spacegm.com/vital/home-infusion.php" class="c-masthead__sub-link">Home Infusion Therapy</a></li>
+                        <li class="c-masthead__sub-item"><a href="http://spacegm.com/vital-care/home-infusion.php" class="c-masthead__sub-link">Home Infusion Therapy</a></li>
                         <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Hemophilia</a></li>
                         <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Specialty</a></li>
                         <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">Insite Therapy Center</a></li>
@@ -51,7 +51,7 @@
 
                      </ul>
                   </li> 
-                  <li class="c-masthead__main-item"><a href="http://spacegm.com/vital/contact.php" class="c-masthead__main-link active--exact active">Contact us</a></li>
+                  <li class="c-masthead__main-item"><a href="http://spacegm.com/vital-care/contact.php" class="c-masthead__main-link active--exact active">Contact us</a></li>
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Providers</a></li> -->
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Clinics</a></li> -->
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">Partner Us</a></li> -->
