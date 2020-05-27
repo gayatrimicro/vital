@@ -62,11 +62,17 @@
         .c-home__intro{
           margin: 70px auto;
         }
-
+        .slide .slide__img img {
+          height: auto !important;
+        }
         @media (max-width: 600px){
           .c-home-blocks__block {
             margin-bottom: 0px;}
           }
+          .slide .slide__img img {
+          height: 100vh !important;
+          object-fit: cover !important;
+        }
         }
       </style>
 
@@ -74,9 +80,8 @@
 include("header.php");
 ?>
 <main>
- <div id="myModal" class="modal">
+ <!-- <div id="myModal" class="modal">
 
-  <!-- Modal content -->
   <div class="req-modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
@@ -133,7 +138,7 @@ include("header.php");
     </div>
   </div>
 
-</div>
+</div> -->
 
 <div id="callbackModal" class="modal">
 
@@ -238,8 +243,8 @@ include("header.php");
 <div class="slider stick-dots">
     <div class="slide">
       <div class="slide__img">
-        <img src="" alt="" data-lazy="assets/images/hero-01.jpg" class="full-image animated hiddenxs" data-animation-in="zoomInImage"/>
-        <img src="" alt="" data-lazy="assets/images/Slide1-mob-dark.jpg" class="full-image animated visiblexs" data-animation-in="zoomInImage" />
+        <img src="" alt="" data-lazy="assets/images/banner-home-infusion.jpg" class="full-image animated hiddenxs" data-animation-in="zoomInImage"/>
+        <img src="" alt="" data-lazy="assets/images/banner-mob-home-infusion.jpg" class="full-image animated visiblexs" data-animation-in="zoomInImage" />
       </div>
       <div class="slide__content">
         <div class="slide__content--headings">
@@ -383,7 +388,9 @@ include("header.php");
 <div class="main-content">
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/hit.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);">
+                    <img src="assets/images/hit.png" class="lazyload hiddenxs">
+                  <img src="assets/images/hit-mob.jpg" class="lazyload visiblexs"></div>
                </div>
                <br>
                <div class="c-home-blocks__content">
@@ -455,7 +462,10 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/hatp.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);">
+                    <img width="1584" height="2112" src="assets/images/hatp.png" class="lazyload hiddenxs">
+                    <img width="1584" height="2112" src="assets/images/hatp-mob.jpg" class="lazyload visiblexs">
+                  </div>
                </div>
                <div class="c-home-blocks__content">
                   <div class="c-home-blocks__text mob-center">
@@ -479,7 +489,10 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/hnsp.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);">
+                    <img src="assets/images/hnsp.png" class="lazyload hiddenxs">
+                    <img src="assets/images/hnsp-mob.jpg" class="lazyload visiblexs">
+                </div>
                </div>
                <br>
                <div class="c-home-blocks__content">
@@ -503,7 +516,10 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box gray-bg">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img width="1584" height="2112" src="assets/images/ivig.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);">
+                    <img width="1584" height="2112" src="assets/images/ivig.png" class="lazyload hiddenxs">
+                    <img width="1584" height="2112" src="assets/images/ivig-mob.jpg" class="lazyload visiblexs">
+                </div>
                </div>
                <div class="c-home-blocks__content">
                   <div class="c-home-blocks__text mob-center">
@@ -526,7 +542,10 @@ include("header.php");
 
             <section class="c-home-blocks__block section-box">
                <div class="c-home-blocks__image">
-                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);"><img src="assets/images/hhpm.png" class="lazyload"></div>
+                  <div class="c-home-blocks__image-wrapper" style="transform:translateY(0%);">
+                    <img src="assets/images/hhpm.png" class="lazyload hiddenxs">
+                    <img src="assets/images/hhpm-mob.jpg" class="lazyload visiblexs">
+                  </div>
                </div>
                <br>
                <div class="c-home-blocks__content">
@@ -624,31 +643,26 @@ include("footer.php")
 
 
 
-<script>
-// Get the modal
+<!-- <script>
 var modal1 = document.getElementById("myModal");
 
 
-// Get the <span> element that closes the modal
 var span1 = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
 $(document).ready(function() {
   modal1.style.display = "block";
 });
 
-// When the user clicks on <span> (x), close the modal
 span1.onclick = function() {
   modal1.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal1) {
     modal1.style.display = "none";
   }
 }
-</script>
+</script> -->
 <script>
 // Get the modal
 var modal = document.getElementById("callbackModal");
