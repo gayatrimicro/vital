@@ -289,7 +289,7 @@ include("header.php");
                     </div>
                     <div class="row margin-top">
                       <label for="email_id">Email:</label>
-                      <input type="text" name="email_id" id="email_id" placeholder="Enter Your Email....." required>
+                      <input type="text" name="email_id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter valid E-mail address." id="email_id" placeholder="Enter Your Email....." required>
                     </div>
                     <div class="row margin-top">
                       <label for="message">Message:</label>
