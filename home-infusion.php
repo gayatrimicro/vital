@@ -489,7 +489,7 @@ include("header.php");
                   </div>
                   <br>
                     <p class="text-justify">There are many different diagnoses that require anti-infective infusions including cellulitis, orthopedic and joint infections, sepsis, complicated UTIs, pneumonia, viral or fungal infections, gastro-intestinal infections, abscesses, endocarditis, and more. We are committed to preventing hospitalizations through physician consultation with our pharmacists. Our team can help with the selection of an individualized anti-infective that will best meet the patient’s needs. We also manage each new referral and are available to assist in gathering necessary documentation for processing patient's care and can oftentimes start home health services the same day.</p>
-                     <a href="contact.php"><p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Contact Vital Care</button></p></a> 
+                     <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback3">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
 
@@ -516,7 +516,7 @@ include("header.php");
                      
                   </div><br>
                   <p class="text-justify">This program’s focus is the provision of exemplary, customized care for patients at home receiving enteral (EN) or parenteral nutrition (PN) support therapy. Every patient is followed by a specialized nutrition support team including a pharmacist, dietitian, nurse, and IV technician the entire time he or she is on service.  A tailored care plan is designed for each patient including comprehensive assessment and follow-up by a Board-Certified Nutrition Support Dietitian. Our team collaborates with the patient’s physician, hospital and/or outpatient clinic to bridge a smooth transition to home. Our goal is to keep our patients safe with meticulous attention paid to the patient’s quality of life while on these life-saving therapies.</p>
-                  <a href="contact.php"><p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Contact Vital Care</button></p></a> 
+                  <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback4">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
                         <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
@@ -543,7 +543,7 @@ include("header.php");
                   </div>
                   <br>
                     <p class="text-justify">Immune globulin (Ig) is a tested and safe solution made from human plasma containing antibodies and can be given intravenously (IVIG) meaning through a vein or subcutaneously (SCIG or SubQ) meaning under the skin. This therapy is used to protect patients that are unable to fight infections due to a low production of antibodies, or someone whose immune system is attacking their body’s healthy cells. Ig is prepared from blood donated by thousands of people, creating a super-concentrated collection of antibodies capable of warding off viruses and/or bacteria. We offer multiple care options for IVIG and SCIG infusions. Care options for our patients include home infusion, medical suite infusion, and infusion centers (IVCs).</p>
-                     <a href="contact.php"><p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Contact Vital Care</button></p></a> 
+                     <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback5">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
 
@@ -569,7 +569,7 @@ include("header.php");
                      
                   </div><br>
                   <p class="text-justify">Our commitment to our patients with pain and other related symptoms is to maximize their comfort and improve their quality of life. We focus on controlling our patient’s pain symptoms while maintaining their awareness and cognitive function. Our pharmacists are trained to provide equal analgesic dosing to provide a smooth transition from oral or transdermal pain medications to IV or SubQ pain management. Hospice patients take immediate priority in the pharmacy. Their medications are prepared immediately and delivered to the bedside as soon as possible to provide pain relief.</p>
-                  <a href="contact.php"><p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn">Contact Vital Care</button></p></a> 
+                  <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" id="reqCallback6">Contact Vital Care</button></p>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
                         <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
@@ -686,6 +686,9 @@ var modal = document.getElementById("callbackModal");
 var btn = document.getElementById("reqCallback");
 var btn2 = document.getElementById("reqCallback2");
 var btn3 = document.getElementById("reqCallback3");
+var btn4 = document.getElementById("reqCallback4");
+var btn5 = document.getElementById("reqCallback5");
+var btn6 = document.getElementById("reqCallback6");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("closeForm")[0];
@@ -699,9 +702,16 @@ btn2.onclick = function() {
 }
 btn3.onclick = function() {
   modal.style.display = "block";
-  $(".closeForm").click();
 }
-
+btn4.onclick = function() {
+  modal.style.display = "block";
+}
+btn5.onclick = function() {
+  modal.style.display = "block";
+}
+btn6.onclick = function() {
+  modal.style.display = "block";
+}
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
