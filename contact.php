@@ -281,23 +281,69 @@ include("header.php");
                   <form id="contact-us">
                     <div class="row margin-top">
                       <label for="f_name">First Name:</label>
-                      <input type="text" name="f_name" id="f_name" placeholder="Enter Your First Name.....">
+                      <input type="text" name="f_name" id="f_name" placeholder="Enter Your First Name....." required>
                     </div>
                     <div class="row margin-top">
                       <label for="l_name">Last Name:</label>
-                      <input type="text" name="l_name" id="l_name" placeholder="Enter Your Last Name.....">
+                      <input type="text" name="l_name" id="l_name" placeholder="Enter Your Last Name....." required>
                     </div>
                     <div class="row margin-top">
                       <label for="email_id">Email:</label>
-                      <input type="text" name="email_id" id="email_id" placeholder="Enter Your Email.....">
+                      <input type="text" name="email_id" id="email_id" placeholder="Enter Your Email....." required>
                     </div>
                     <div class="row margin-top">
                       <label for="message">Message:</label>
-                      <textarea id="message" rows="4" name="message" placeholder="Enter Your Message......"></textarea>
+                      <textarea id="contact-message" rows="4" name="contact-message" placeholder="Enter Your Message......" required></textarea>
                     </div>
+                    <div class="row">
+                       <style type="text/css">
+                          #successmessage{
+                            display: none;
+                            text-align: left;
+                            color: #040404;
+                            font-size: 1.225rem;
+                            margin-top: 1rem;
+                        }
+                          }
+                        </style>
 
+                       <h3 id="successmessage">Thank you for your enquiry</h3>
+                     </div>
+                    <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn text-center" type="submit">Send now </button></p>
                   </form>
-                  <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn text-center" id="reqCallback2">Send now </button></p>
+                  <script>
+
+                    $('#contact-us').submit(function(event) {
+                      event.preventDefault();
+                      var formdata = $('#contact-us').serialize();
+
+                      
+                        if ($('#f_name').val() != "" && $('#l_name').val() != "" && $('#email_id').val() != "" && $('#contact-message').val() != "") {
+                          
+                          // alert(bookdate);
+                            // && grecaptcha.getResponse() != ""
+                             $.ajax({
+                                              url:'contact-request.php',
+                                              type:'POST',
+                                              data:formdata,
+                                              success:function(result){
+                                                $("#successmessage").css("display", "block");
+                                                  $("#successmessage").html("Your enquiry has been sent successfully");
+                                                  // alert("Your enquiry has been sent successfully");
+                                                  $("#f_name, #l_name, #email_id, #contact-message").val("");
+                                                  
+                                                  
+                                              } 
+                                    });
+
+                        
+                    }
+                             else{
+                              alert("All fields are mandatory");
+                                  }
+                    });
+
+                </script>
                   <div class="c-home-blocks__quote">
                      <div class="c-home-blocks__quote-text">
                         <noscript><img src="assets/static/quote-mark.a577e4e.00348f1361ed1be08780b96b11cb0f23.svg" class="c-home-blocks__quote-mark g-image g-image--loaded" width="30" alt="&ldquo;"></noscript>
