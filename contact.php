@@ -297,7 +297,7 @@ include("header.php");
                     </div>
                     <div class="row">
                        <style type="text/css">
-                          #successmessage{
+                          #successmessage1{
                             display: none;
                             text-align: left;
                             color: #040404;
@@ -307,7 +307,7 @@ include("header.php");
                           }
                         </style>
 
-                       <h3 id="successmessage">Thank you for your enquiry</h3>
+                       <h3 id="successmessage1">Thank you for your enquiry</h3>
                      </div>
                     <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn text-center" type="submit">Send now </button></p>
                   </form>
@@ -327,8 +327,9 @@ include("header.php");
                                               type:'POST',
                                               data:formdata,
                                               success:function(result){
-                                                $("#successmessage").css("display", "block");
-                                                  $("#successmessage").html("Your enquiry has been sent successfully");
+                                                  
+                                                  $("#successmessage1").css("display", "block");
+                                                  $("#successmessage1").html("Your enquiry has been sent successfully");
                                                   // alert("Your enquiry has been sent successfully");
                                                   $("#f_name, #l_name, #email_id, #contact-message").val("");
                                                   
