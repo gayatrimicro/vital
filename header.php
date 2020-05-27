@@ -27,15 +27,16 @@
                </button>
                <ul class="c-masthead__main-menu">
                   <li class="c-masthead__main-item"><a href="http://spacegm.com/vital-care/" class="c-masthead__main-link active--exact active">Home</a></li>
-                  <script type="text/javascript">
+                  <li class="c-masthead__main-item"><a href="http://spacegm.com/vital-care/home-infusion.php" class="c-masthead__main-link active--exact active">Home Infusion Therapy</a></li>
+                  <!-- <script type="text/javascript">
                   //   $('#services-menu').hover(
                   //        function(){ 
                   //         alert("hello");
                   //         $(this).addClass('is-expanded') 
                   //       }
                   // )
-                  </script>
-                  <li id="services-menu" class="c-masthead__main-item c-masthead__main-item--is-parent blog">
+                  </script> -->
+                  <!-- <li id="services-menu" class="c-masthead__main-item c-masthead__main-item--is-parent blog">
                      <a class="c-masthead__main-link c-masthead__main-link--no-href c-masthead__main-link--is-parent">
                         Services
                         <svg role="img" xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41" class="c-expand-arrow c-expand-arrow--masthead-parent">
@@ -50,7 +51,7 @@
                         <li class="c-masthead__sub-item"><a href="#" class="c-masthead__sub-link">IVIG</a></li>
 
                      </ul>
-                  </li> 
+                  </li>  -->
                   <li class="c-masthead__main-item"><a href="http://spacegm.com/vital-care/contact.php" class="c-masthead__main-link active--exact active">Contact us</a></li>
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Providers</a></li> -->
                   <!-- <li class="c-masthead__main-item"><a href="#" class="c-masthead__main-link">For Clinics</a></li> -->
