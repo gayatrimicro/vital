@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="assets/css/0.styles.1e9d37b3.css">
     <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/normalize.min.css">
-    <link rel='stylesheet' href='assets/css/slick.css'>
+    <!-- <link rel="stylesheet" href="assets/css/normalize.min.css"> -->
+    <!-- <link href="assets/css/aos.css" rel="stylesheet"> -->
+    <!-- <link rel='stylesheet' href='assets/css/slick.css'> -->
     <link rel='stylesheet' href='assets/css/modal.css'>
     <link rel='stylesheet' href='assets/css/animate.min.css'>
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css">
-    <link href="assets/css/aos.css" rel="stylesheet">
   </head>
   <body >
       <script>
@@ -170,7 +170,7 @@ include("header.php");
 
          <h3 id="successmessage">Thank you for your enquiry</h3>
        </div>
-       <div class="row" style="margin-top: 10px;">
+       <div class="row" style="margin-top: 20px;">
          <div class="col-6">
            <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" type="submit" id="submit">Submit</button></p>
          </div>
@@ -499,9 +499,9 @@ include("header.php");
 include("footer.php")
 ?>
     <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
-    <script src='assets/js/slick.min.js'></script>
-    <script src='assets/js/slick-animation.min.js'></script>
-    <script src="assets/js/aos.js"></script>
+    <!-- <script src='assets/js/slick.min.js'></script> -->
+    <!-- <script src='assets/js/slick-animation.min.js'></script> -->
+    <!-- <script src="assets/js/aos.js"></script> -->
     <script type="text/javascript">
       $('.slider').slick({
           autoplay: true,

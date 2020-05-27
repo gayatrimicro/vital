@@ -176,7 +176,7 @@ include("header.php");
 
          <h3 id="successmessage">Thank you for your enquiry</h3>
        </div>
-       <div class="row">
+       <div class="row" style="margin-top: 20px;">
          <div class="col-6">
            <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3"><button class="c-button__inner c-button__inner--solid c-button__inner--solid-green c-button__inner--square-arrow c-button__inner--ne-arrow c-button__inner--ne-arrow-white join_btn" type="submit" id="submit">Submit</button></p>
          </div>
