@@ -13,7 +13,7 @@
     <!-- <link rel="stylesheet" href="assets/css/normalize.min.css"> -->
     <!-- <link rel='stylesheet' href='assets/css/slick.css'> -->
     <link rel='stylesheet' href='assets/css/modal.css'>
-    <link rel='stylesheet' href='assets/css/animate.min.css'>
+    <!-- <link rel='stylesheet' href='assets/css/animate.min.css'> -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css">
     <!-- <link href="assets/css/aos.css" rel="stylesheet"> -->
   </head>
@@ -683,6 +683,7 @@ window.onclick = function(event) {
 var modal = document.getElementById("callbackModal");
 
 // Get the button that opens the modal
+var online = document.getElementById("online");
 var btn = document.getElementById("reqCallback");
 var btn2 = document.getElementById("reqCallback2");
 var btn3 = document.getElementById("reqCallback3");
@@ -694,9 +695,13 @@ var btn6 = document.getElementById("reqCallback6");
 var span = document.getElementsByClassName("closeForm")[0];
 
 // When the user clicks the button, open the modal 
+online.onclick = function() {
+  modal.style.display = "block";
+}
 btn.onclick = function() {
   modal.style.display = "block";
 }
+
 btn2.onclick = function() {
   modal.style.display = "block";
 }

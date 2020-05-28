@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- <link rel="stylesheet" href="assets/css/normalize.min.css"> -->
     <!-- <link href="assets/css/aos.css" rel="stylesheet"> -->
-    <!-- <link rel='stylesheet' href='assets/css/slick.css'> -->
+    <link rel='stylesheet' href='assets/css/slick.css'>
     <link rel='stylesheet' href='assets/css/modal.css'>
     <link rel='stylesheet' href='assets/css/animate.min.css'>
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css">
@@ -499,8 +499,8 @@ include("header.php");
 include("footer.php")
 ?>
     <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
-    <!-- <script src='assets/js/slick.min.js'></script> -->
-    <!-- <script src='assets/js/slick-animation.min.js'></script> -->
+    <script src='assets/js/slick.min.js'></script>
+    <script src='assets/js/slick-animation.min.js'></script>
     <!-- <script src="assets/js/aos.js"></script> -->
     <script type="text/javascript">
       $('.slider').slick({
@@ -576,6 +576,7 @@ window.onclick = function(event) {
 var modal = document.getElementById("callbackModal");
 
 // Get the button that opens the modal
+var online = document.getElementById("online");
 var btn = document.getElementById("reqCallback");
 var btn2 = document.getElementById("reqCallback2");
 var btn3 = document.getElementById("reqCallback3");
@@ -586,6 +587,9 @@ var btn5 = document.getElementById("reqCallback5");
 var span = document.getElementsByClassName("closeForm")[0];
 
 // When the user clicks the button, open the modal 
+online.onclick = function() {
+  modal.style.display = "block";
+}
 btn.onclick = function() {
   modal.style.display = "block";
 }

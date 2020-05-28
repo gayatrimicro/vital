@@ -11,9 +11,9 @@
     <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/normalize.min.css">
-    <link rel='stylesheet' href='assets/css/slick.css'>
+    <!-- <link rel='stylesheet' href='assets/css/slick.css'> -->
     <link rel='stylesheet' href='assets/css/modal.css'>
-    <link rel='stylesheet' href='assets/css/animate.min.css'>
+    <!-- <link rel='stylesheet' href='assets/css/animate.min.css'> -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css">
     <link href="assets/css/aos.css" rel="stylesheet">
   </head>
@@ -402,10 +402,10 @@ include("footer.php")
 ?>
 </div>
     <!-- <script src="assets/js/app.faaccc82.js" defer></script> --><!-- <script src="assets/js/page--src--pages--index-vue.5bdbb0dc.js" defer></script> --><!-- <script src="assets/js/page--src--pages--covid-19-vue_page--src--pages--for-companies-vue_page--src--pages--index-vue.d162b93a.js" defer></script> -->
-    <script src='assets/js/slick.min.js'></script>
-    <script src='assets/js/slick-animation.min.js'></script>
-    <script src="assets/js/aos.js"></script>
-    <script type="text/javascript">
+    <!-- <script src='assets/js/slick.min.js'></script> -->
+    <!-- <script src='assets/js/slick-animation.min.js'></script> -->
+    <!-- <script src="assets/js/aos.js"></script> -->
+    <!-- <script type="text/javascript">
       $('.slider').slick({
           autoplay: true,
           speed: 1500,
@@ -416,7 +416,7 @@ include("footer.php")
             </script>
             <script>
           AOS.init();
-    </script>
+    </script> -->
   
 
 <!-- 
@@ -465,19 +465,15 @@ window.onclick = function(event) {
 var modal = document.getElementById("callbackModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("reqCallback");
-var btn2 = document.getElementById("reqCallback2");
+var online = document.getElementById("online");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("closeForm")[0];
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
+// When the user clicks the button, open the modal
+online.onclick = function() {
   modal.style.display = "block";
-}
-btn2.onclick = function() {
-  modal.style.display = "block";
-}
+} 
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
