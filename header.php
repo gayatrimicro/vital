@@ -2,7 +2,7 @@
    <div class="l-container l-container--gutters l-container--masthead">
       <nav class="c-masthead__nav">
          <div class="c-masthead__logo">
-            <a href="#" class="active--exact active"><img src="assets/images/vital-logo.png" style="width: 14rem;">
+            <a href="http://spacegm.com/vital-care/" class="active--exact active"><img src="assets/images/vital-logo.png" style="width: 14rem;">
                <!-- logo -->
                <!-- <img src="assets/images/logo.png" class="g-image g-image--loaded" style="max-width: 150%;" width="107" alt="logo">
                <noscript><img src="assets/images/logo.png" class="g-image g-image--loaded" width="107" alt="logo"></noscript> -->
